@@ -19,6 +19,7 @@
 - [] Rachel came, Rachel saw, Rachel conquered!
 
 #### Template tasks - Due **25 Nov** (try to finish before 18/11 for bonus marks)
+All these components will appear in all individual pages:
 - [] Slide show banner (1 person):
 - [] < header > and < footer > (1 person):
 - [] Menu (1 person):
