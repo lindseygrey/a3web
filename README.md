@@ -6,7 +6,7 @@
 #### Task lists
 
 - [x] Picking a3web master repository hosted by one group member: Lindsey's repository https://github.com/lindseygrey/a3web
-- [] Divide the components for template design - before lab week 10 (11 Nov) 
+- [x] Divide the components for template design - before lab week 10 (11 Nov) 
 - [] Complete template design - before week 11 deadline for bonus marks (18 Nov)
 - [] Complete the final submission - before due date (8 Dec)
 
@@ -26,9 +26,9 @@ All these components will appear in all individual pages:
 *template from https://startbootstrap.com/template/full-width-pics*
 - [] < header > and < footer > (to be finished first so others can start their work): Lindsey
 - [] Navbar: Amanda
-- [] Header image:
-- [] < body >: 
-- [] css/js edit + putting together all other components to make 1 template file for submission:
+- [] Header image: Perry
+- [] < body >: Rachel
+- [] css/js edit + putting together all other components to make 1 template file for submission: Raine
 
 #### Final submission - Due **8 Dec** (try to finish by the weekend of week 13)
 - [] All group members: Index, Meet The Team, Resources, Contact Us - Group meeting Sunday afternoon, Nov 21
