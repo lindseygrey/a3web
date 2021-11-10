@@ -27,7 +27,7 @@ All these components will appear in all individual pages:
 - [] < header > and < footer > (to be finished first so others can start their work):
 - [] Navbar: Amanda
 - [] Header image:
-- [] < body > (1 person): 
+- [] < body >: 
 - [] css/js edit + putting together all other components to make 1 template file for submission:
 
 #### Final submission - Due **8 Dec** (try to finish by the weekend of week 13)
