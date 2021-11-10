@@ -21,6 +21,7 @@
 #### Template tasks - Due **25 Nov** (try to finish before 18/11 for bonus marks)
 - [] All group members: Decide on the overall design
 *note - design templates/ideas might be taken from https://startbootstrap.com/ and later modified to fit our needs/skills*
+
 All these components will appear in all individual pages:
 *template from https://startbootstrap.com/template/full-width-pics*
 - [] < header > and < footer > (to be finished first so others can start their work):
