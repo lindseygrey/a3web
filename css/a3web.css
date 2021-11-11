@@ -13,12 +13,6 @@ p {
 } 
 /* End Owner: Shawn Morgan */
 
-
-
-
-
-
-
 /* Put Classes Here*/
 
 /***************** 
@@ -26,8 +20,28 @@ p {
 * Date  : 
 * From  : https://www.w3schools.com/css/css_link.asp
 ******************/
-.footerlink {
+
+/* unvisited link */
+a:link {
   color: red;
-} 
-/* End Owner: Lindsey */
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+
+
+
+
 
