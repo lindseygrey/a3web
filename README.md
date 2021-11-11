@@ -12,11 +12,11 @@
 
 #### In-Lab Demonstration
 
-- [] Amanda knocked it out of the park!
-- [] Igraine condragulations you are the winner of this week's maxi challenge!
-- [] Lindsey's an invicible, unbreakable, unstoppable, unshakeable champion!
-- [] Perry slayed the challenge! *death drop*
-- [] Rachel came, Rachel saw, Rachel conquered!
+- [x] Amanda knocked it out of the park!
+- [x] Igraine condragulations you are the winner of this week's maxi challenge!
+- [x] Lindsey's an invicible, unbreakable, unstoppable, unshakeable champion!
+- [x] Perry slayed the challenge! *death drop*
+- [x] Rachel came, Rachel saw, Rachel conquered!
 
 #### Template tasks - Due **25 Nov** (try to finish before 18/11 for bonus marks)
 - [x] All group members: Decide on the overall design
