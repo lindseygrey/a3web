@@ -7,13 +7,21 @@
 * Date  : 
 * From  : https://www.w3schools.com/css/css_link.asp
 ******************/
-.h3footer {
+.h3footer {      /* some styles from here https://www.web-eau.net/blog/10-best-footer-html-css-snippets */ 
   Color: gray;
+  margin-top:0;
+  margin-bottom:12px;
+  font-weight:bold;
+  font-size:16px;
 }
 
 
 .col {
   column-count: 3;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
 }
 .social {
   padding-top: 5px;
@@ -23,8 +31,12 @@
 }
 .footerlink {
   color: whitesmoke
-  
+  }
+
+.footerlink a:hover {
+  color: grey
 }
+
 /* unvisited link */
 a:link {
   color: whitesmoke;
