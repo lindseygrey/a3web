@@ -23,8 +23,15 @@ p {
 .h3footer {
   Color: gray;
 }
+
+
 .col {
   column-count: 3;
+}
+
+.footerlink {
+  color: whitesmoke
+  
 }
 /* unvisited link */
 a:link {
