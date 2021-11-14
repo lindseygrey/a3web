@@ -26,10 +26,11 @@
   column-rule-width: 5px;
   column-rule-style: solid;
   column-rule-color: grey;
+  column-gap: 60px;
 }
 
 li{
-  text-align:right
+  text-align:left
 }
 .social {
   padding-top: 5px;
