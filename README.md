@@ -24,7 +24,7 @@
 
 All these components will appear in all individual pages:
 *template from https://startbootstrap.com/template/full-width-pics*
-- [] < head > and < footer > (to be finished first so others can start their work): Lindsey
+- [] < head > and < footer > : Lindsey
 - [] Navbar: Amanda
 - [] Header image: Perry
 - [] < body >: Rachel
