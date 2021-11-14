@@ -1,19 +1,6 @@
 /* CSS page */
-/* Please place your name next to your code */
+/* Please place your name Before and After your code */
 
-/* Example */
-
-/***************** 
-* Owner : Shawn Morgan
-* Date  : Nov 5 (v1)
-* From  : https://www.w3schools.com/html/html_intro.asp
-******************/
-p {
-  color: red;
-} 
-/* End Owner: Shawn Morgan */
-
-/* Put Classes Here*/
 
 /***************** 
 * Owner : Lindsey
@@ -28,7 +15,12 @@ p {
 .col {
   column-count: 3;
 }
-
+.social {
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+}
 .footerlink {
   color: whitesmoke
   
@@ -53,7 +45,7 @@ a:active {
   color: white;
 }
 
-
+/* End of Lindsey Section */
 
 
 
