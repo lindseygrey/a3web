@@ -14,4 +14,4 @@ When you add an image, add file name and source to this document
     - Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f47d.svg
     - Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-Social icons - https://www.iconfinder.com/iconsets/social-media-circle-7
+Social icons - https://www.iconsdb.com/white-icons/white-social-icons.html
