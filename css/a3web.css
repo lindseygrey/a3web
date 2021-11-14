@@ -12,7 +12,7 @@
   margin-top:0;
   margin-bottom:12px;
   font-weight:bold;
-  font-size:16px;
+  font-size:20px;
   text-align: center
 }
 
@@ -23,12 +23,13 @@
   padding-right: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
-  margin:auto
-  
+  column-rule-width: 5px;
+  column-rule-style: solid;
+  column-rule-color: grey;
 }
 
 li{
-  text-align:center
+  text-align:right
 }
 .social {
   padding-top: 5px;
