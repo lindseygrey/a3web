@@ -40,7 +40,7 @@ li{
 }
 .footerlink {
   color: whitesmoke;
-  text-align: center
+  text-decoration: none;
   }
 
 .footerlink a:hover {
