@@ -1,4 +1,4 @@
-# GEOM101 - Group 7
+# GEOM101 - Group 11
 ## Assignment 3: Team Website Development
 
 ### Group plan for workload distribution
