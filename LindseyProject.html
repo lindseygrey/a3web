@@ -15,8 +15,13 @@
         <link href="css/a3web.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
     </head>
+    <script>
+    function alertUser(msg) {
+    alert(msg);
+    }
+    </script>
     <!-- End of Lindsey's Code -->
-    <body>
+    <body onload="alertUser('By selecting OK, you are agreeing to obey all interplanetary laws as designated by the United Federation of Planets">
         <!-- Responsive navbar-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container">
@@ -62,6 +67,12 @@
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <h2>Engaging Background Images</h2>
+                        <button onload="myFunction()">Try it</button>
+                        <script>
+                        function myFunction() {
+                        alert("By selecting Ok, you are agreeing to obey all interplanetary laws");
+                        }
+                        </script>
                         <p class="lead">The background images used in this template are sourced from Unsplash and are open source and free to use.</p>
                         <p class="mb-0">I can't tell you how many people say they were turned off from science because of a science teacher that completely sucked out all the inspiration and enthusiasm they had for the course.</p>
                     </div>

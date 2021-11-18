@@ -1,4 +1,4 @@
-# GEOM101 - Group 7
+# GEOM101 - Group 11
 ## Assignment 3: Team Website Development
 
 ### Group plan for workload distribution
@@ -24,7 +24,8 @@
 
 All these components will appear in all individual pages:
 *template from https://startbootstrap.com/template/full-width-pics*
-- [] < head > and < footer > : Lindsey
+- [x] < head > and < footer > : Lindsey
+- [ ] JavaScript program : Lindsey
 - [] Navbar: Amanda
 - [] Header image: Perry
 - [] < body >: Rachel
