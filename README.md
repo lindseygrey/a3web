@@ -7,7 +7,7 @@
 
 - [x] Picking a3web master repository hosted by one group member: Lindsey's repository https://github.com/lindseygrey/a3web
 - [x] Divide the components for template design - before lab week 10 (11 Nov) 
-- [ ] Complete template design - before week 11 deadline for bonus marks (18 Nov)
+- [ ] Complete template design - before week 12 (25 Nov)
 - [ ] Complete the final submission - before due date (8 Dec)
 
 #### In-Lab Demonstration
