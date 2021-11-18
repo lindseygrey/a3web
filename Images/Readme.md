@@ -14,4 +14,5 @@ When you add an image, add file name and source to this document
     - Graphics Source: https://github.com/twitter/twemoji/blob/master/assets/svg/1f47d.svg
     - Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
-Social icons - https://www.iconsdb.com/white-icons/white-social-icons.html
+- Social icons - https://www.iconsdb.com/white-icons/white-social-icons.html
+- Header image modified from: https://wallpapersafari.com/hi-res-space-wallpaper/
