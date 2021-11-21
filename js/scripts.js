@@ -7,15 +7,12 @@
 // Use this file to add JavaScript to your project
 
 // Perry code starts here
-$("#slideshow > div:gt(0)").hide();
-
-setInterval(function() {
-  $('#slideshow > div:first')
-    .fadeOut(1000)
-    .next()
-    .fadeIn(1000)
-    .end()
-    .appendTo('#slideshow');
-}, 5000);
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){
+    $('.fadein :first-child').fadeOut()
+        .next('img').fadeIn()
+        .end().appendTo('.fadein');}, 
+    3000);
 
 // Perry code ends here
