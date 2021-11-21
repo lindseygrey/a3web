@@ -15,7 +15,28 @@
     <body>
         <!-- Perry's code starts here -->
         <!-- Header image above navbar -->
-            <img src="Images/iiiheader1.png" alt="header image with the firm's name" id="headerimage">    
+        <div id="slideshow">
+            <div>
+                <img src="Images/iiiheader1.png" alt="header image with the firm's name #1" id="headerimage">
+            </div>
+            <div>
+                <img src="Images/iiiheader2.png" alt="header image with the firm's name #2" id="headerimage">  
+            </div>
+            <div>
+                <img src="Images/iiiheader3.png" alt="header image with the firm's name #3" id="headerimage">    
+            </div>  
+        </div>
+        <script>
+            $("#slideshow > div:gt(0)").hide();
+            setInterval(function() {
+                $('#slideshow > div:first')
+                .fadeOut(1000)
+                .next()
+                .fadeIn(1000)
+                .end()
+                .appendTo('#slideshow');
+            }, 3000);
+        </script>
         <!-- Perry's code ends here -->
 
         <!-- Responsive navbar-->
