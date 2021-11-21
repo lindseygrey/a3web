@@ -15,4 +15,7 @@ When you add an image, add file name and source to this document
     - Graphics License: CC-BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 
 - Social icons - https://www.iconsdb.com/white-icons/white-social-icons.html
-- Header image modified from: https://wallpapersafari.com/hi-res-space-wallpaper/
+- Header images modified from: 
+https://wallpapersafari.com/hi-res-space-wallpaper/
+https://pixabay.com/illustrations/space-universe-galaxy-sky-stars-4748908/ 
+https://www.teahub.io/viewwp/mJoJhi_pink-space-desktop-backgrounds/ 
