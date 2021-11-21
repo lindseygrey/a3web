@@ -8,8 +8,9 @@
         <title>Full Width Pics - Start Bootstrap Template</title>
         <!-- Favicon-->
         <link rel="icon" href="Images/android-chrome-512x512.png">
-        <!-- Core theme CSS (includes Bootstrap)-->
-        <link href="css/styles.css" rel="stylesheet" />
+         <!-- CSS Links-->
+         <link href="css/a3web.css" rel="stylesheet" />
+         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
         <!-- Amanda's Code starts -->
@@ -32,6 +33,17 @@
             <a href="#about">About</a>
             <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
           </div>  
+
+          <script>
+            function myFunction() {
+              var x = document.getElementById("myTopnav");
+              if (x.className === "topnav") {
+                x.className += " responsive";
+              } else {
+                x.className = "topnav";
+              }
+            }
+            </script>
         <!-- Amanda's Code ends -->
 
         
