@@ -9,17 +9,17 @@
         .fadein { position:relative; height:176px; width:1440px; }
         .fadein img { position:absolute; left:0; top:0; }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script>
+    $(function(){
+        $('.fadein img:gt(0)').hide();
+        setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+    });
+    </script>
 </head>
 <body>
 <!-- Perry's code starts here -->
 <!-- Header image above navbar -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script>
-$(function(){
-    $('.fadein img:gt(0)').hide();
-    setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
-});
-</script>
 <div id="fadein">
 <img src="Images/iiiheader1.png" alt="header image with the firm's name #1" >
 <img src="Images/iiiheader2.png" alt="header image with the firm's name #2" >  
@@ -27,21 +27,6 @@ $(function(){
 </div>
     
     <!-- Perry's code ends here -->
-
-    <!-- Responsive navbar-->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <div class="container">
-            <a class="navbar-brand" href="#!">Start Bootstrap</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
     
 </body>
 </html>
