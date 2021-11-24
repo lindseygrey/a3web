@@ -15,20 +15,20 @@
     .fadein img { position:absolute; left:0; top:0; }
 </style>
 <body>
-    <!-- Perry's code starts here -->
-    <!-- Header image above navbar -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script>
-    $(function(){
-        $('.fadein img:gt(0)').hide();
-        setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
-    });
-    </script>
-    <div id="fadein">
-    <img src="Images/iiiheader1.png" alt="header image with the firm's name #1" id="headerimage">
-    <img src="Images/iiiheader2.png" alt="header image with the firm's name #2" id="headerimage">  
-    <img src="Images/iiiheader3.png" alt="header image with the firm's name #3" id="headerimage">    
-    </div>
+<!-- Perry's code starts here -->
+<!-- Header image above navbar -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
+<div id="fadein">
+<img src="Images/iiiheader1.png" alt="header image with the firm's name #1" id="headerimage">
+<img src="Images/iiiheader2.png" alt="header image with the firm's name #2" id="headerimage">  
+<img src="Images/iiiheader3.png" alt="header image with the firm's name #3" id="headerimage">    
+</div>
     
     <!-- Perry's code ends here -->
 
