@@ -73,6 +73,14 @@ a:active {
 #headerimage {
   width: 100%;
 }
+
+.fadein { 
+  position:relative; 
+}
+
+.fadein img {
+  position:absolute; left:0; top:0; 
+}
 /* End of Perry CSS */
 
 /* Amanda CSS */
