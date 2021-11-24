@@ -193,7 +193,7 @@ a:active {
 /*Begin Rachel CSS*/
 /*Added 11/24. */
 /*CSS for Contact form.   Free: https://codepen.io/nickhaskell/pen/HoGsm*/
-@import "compass/css3";
+/*@import "compass/css3";
 
 // Font imports
 
@@ -384,4 +384,5 @@ form {
    display: none; 
   }
 }
+  */
 /*End Contact form CSS*
