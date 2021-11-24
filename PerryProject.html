@@ -5,17 +5,17 @@
     <!-- Favicon-->
     <link rel="icon" href="Images/android-chrome-512x512.png">
     <!-- Core theme CSS (includes Bootstrap)-->
-    <style>
-        .fadein { position:relative; height:176px; width:1440px; }
-        .fadein img { position:absolute; left:0; top:0; }
-    </style>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-    <script>
-    $(function(){
-        $('.fadein img:gt(0)').hide();
-        setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
-    });
-    </script>
+<style>
+    .fadein { position:relative; height:176px; width:1440px; }
+    .fadein img { position:absolute; left:0; top:0; }
+</style>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script>
+$(function(){
+    $('.fadein img:gt(0)').hide();
+    setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+});
+</script>
 </head>
 <body>
 <!-- Perry's code starts here -->
