@@ -110,7 +110,7 @@ a:active {
 .respNav .icon {
   display: none;
 }
-
+/* Can't get dropdown portion of menu to function possible bootstrap/js issue? */
 .dropdown {
   float: right;
   overflow: hidden;
