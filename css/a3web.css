@@ -214,12 +214,12 @@ a:active {
 }
 
 /* Some left and right padding inside the container */
-.container {
+.contactcontainer {
   padding: 0 16px;
 }
 
 /* Clear floats */
-.container::after, .row::after {
+.contactcontainer::after, .row::after {
   content: "";
   clear: both;
   display: table;
