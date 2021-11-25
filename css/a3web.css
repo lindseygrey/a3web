@@ -82,7 +82,7 @@ a:active {
 
 .headerimage {
   width: 100%;
-  position:absolute;
+  position:relative;
 }
 
 /* End of Perry CSS */
