@@ -12,7 +12,7 @@
             display:block; 
         }
         #slideshow IMG {
-            position:inherit;
+            position:absolute;
             width: 100%;
             top:0;
             left:0;
@@ -20,9 +20,11 @@
         }
         #slideshow IMG.active {
             z-index:10;
+            position: initial;
         }
         #slideshow IMG.last-active {
             z-index:9;
+            position: initial;
         }
         
         .container {
