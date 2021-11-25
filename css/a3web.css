@@ -70,7 +70,7 @@ a:active {
 
 /* Perry CSS */
 .slideshow-container {
-  position: relative;
+  position: absolute;
   margin: auto;
   display:block;
 }
