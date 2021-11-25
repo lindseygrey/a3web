@@ -71,15 +71,13 @@ a:active {
 /* Perry CSS */
 #headerimage {
   width: 100%;
+  position:absolute;
 }
 
 .fadein { 
-  position:relative; left:0; top:0; display:block;
+  position:relative;
 }
 
-.fadein img {
-  position:relative; left:0; top:0; display:block;
-}
 /* End of Perry CSS */
 
 /* Amanda CSS */
