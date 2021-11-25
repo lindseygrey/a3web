@@ -20,9 +20,9 @@
         <!-- Last updated Nov 24-->
         <!-- Responsive navbar with dropdown for projects section -->
         <div class="respNav" id="myrespNav">
-            <a href="index.html" class="active">Home</a>
-            <a href="Team.html">Team</a>
-            <a href="Contact.html">Contact</a>
+                <a href="index.html" class="active">Home</a>
+                <a href="Team.html">Team</a>
+                <a href="Contact.html">Contact</a>
             <div class="dropdown">
                 <button class="dropbtn">Projects
                     <i class="fa fa-caret-down"></i>
@@ -50,17 +50,28 @@
             }
             }
         </script>
-        <!-- Amanda's Code ends -->
-        <!--Rachel's Code start-->
-        <!--Updated 11/22-->
-       <!-- Header - set the background image for the header in the line below-->
-       <header class="py-5 bg-image-full" style="background-image: url('https://pbs.twimg.com/media/EZSU-RtWsAEyI7x?format=jpg&name=large')">
-        <div class="text-center my-5">
-            <!--<img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." /> -->
-            <h1 class="text-white fs-3 fw-bolder">Interstellar Geographic Information Specialists </h1>
-            <p class="text-white-50 mb-0">Deep Spatial Analysis. Planetary Site Analysis. Cartographers of the Cosmos.  </p>
+            <!-- Amanda's Code ends -->
+            <!--Rachel's Code start-->
+            <!--Updated 11/22-->
+            <!-- Header - set the background image for the header in the line below-->
+            
+            <!-- Perry's code starts here -->
+            <!-- Header image above navbar -->
+        <div class="fadein">
+            <img src="Images/iiiheader1.png" alt="header image with the firm's name #1" id="headerimage" >
+            <img src="Images/iiiheader2.png" alt="header image with the firm's name #2" id="headerimage" >  
+            <img src="Images/iiiheader3.png" alt="header image with the firm's name #3" id="headerimage" >    
         </div>
-        </header>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>
+        $(function(){
+            $('.fadein img:gt(0)').hide();
+            setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+        });
+        </script>
+        <!-- Perry's code ends here -->
+        
         <!-- Content section-->
         <section class="py-5">
             <div class="container my-5">
