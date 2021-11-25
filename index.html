@@ -16,6 +16,41 @@
         <link href="css/styles.css" rel="stylesheet" />
     </head>
     <body>
+        <!-- Amanda's Code starts -->
+        <!-- Last updated Nov 24-->
+        <!-- Responsive navbar with dropdown for projects section -->
+        <div class="respNav" id="myrespNav">
+            <a href="index.html" class="active">Home</a>
+            <a href="Team.html">Team</a>
+            <a href="Contact.html">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn">Projects
+                    <i class="fa fa-caret-down"></i>
+                </button>
+            <!-- Can't get dropdown portion of menu to function possible bootstrap/js issue? -->
+            <div class="dropdown-content">
+                    <a href="LindseyProject.html">Lindsey Project</a>
+                    <a href="PerryProject.html">Perry Project</a>
+                    <a href="RachelProject.html">Rachel Project</a>
+                    <a href="IgraineProject.html">Igraine Project</a>
+                    <a href="AmandaProject.html">Amanda Project</a>
+            </div>
+            </div>
+            <a href="Resources.html">Resources</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>  
+
+        <script>
+            function myFunction() {
+            var x = document.getElementById("myrespNav");
+            if (x.className === "respNav") {
+                x.className += "responsive";
+            } else {
+                x.className = "respNav";
+            }
+            }
+        </script>
+        <!-- Amanda's Code ends -->
         <!--Rachel's Code start-->
         <!--Updated 11/22-->
        <!-- Header - set the background image for the header in the line below-->
