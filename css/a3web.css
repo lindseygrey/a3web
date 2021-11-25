@@ -290,8 +290,6 @@ input[type=submit]:hover {
 
 /* raine css */
 .parent {
-  margin: 1rem;
-  padding: 2rem 2rem;
   text-align: center;
 }
 .child {
@@ -299,6 +297,7 @@ input[type=submit]:hover {
   width: 700px;
   height: 200px;
   margin: 10px 10px 10px 10px;
+  background-color:#AF8DC8;
   border: 5px solid grey;
   padding: 50px;
   vertical-align: middle;
