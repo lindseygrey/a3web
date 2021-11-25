@@ -6,16 +6,11 @@
 * Date  : November 14
 * From  : https://www.w3schools.com/css/css_link.asp
 ******************/
-.responsive-footer {
-  display: block;
-  width: 100%;
-  margin-bottom: 40px;
-  text-align: center;
-}
+
 .h3footer {      /* some styles from here https://www.web-eau.net/blog/10-best-footer-html-css-snippets */ 
   Color: gray;
-  margin-top:0;
-  margin-bottom:12px;
+  margin-top:auto;
+  margin-bottom:auto;
   font-weight:bold;
   font-size:20px;
   text-align: center
