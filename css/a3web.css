@@ -290,15 +290,17 @@ input[type=submit]:hover {
 
 /* raine css */
 .parent {
-  border: 1px solid black;
   margin: 1rem;
   padding: 2rem 2rem;
   text-align: center;
 }
 .child {
   display: inline-block;
-  border: 1px solid grey;
-  padding: 1rem 1rem;
+  width: 700px;
+  height: 200px;
+  margin: 10px 10px 10px 10px;
+  border: 5px solid grey;
+  padding: 50px;
   vertical-align: middle;
 }
 /* end raine css */
