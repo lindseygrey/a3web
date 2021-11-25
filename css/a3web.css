@@ -69,6 +69,11 @@ a:active {
 /* End of Lindsey Section */
 
 /* Perry CSS */
+.slideshow-container {
+  position: relative;
+  margin: auto;
+}
+
 #headerimage {
   width: 100%;
   position:absolute;
