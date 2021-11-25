@@ -72,15 +72,18 @@ a:active {
 .slideshow-container {
   position: relative;
   margin: auto;
+  display:block;
 }
 
 #headerimage {
   width: 100%;
   position:relative;
+  display:block;
 }
 
 .fadein { 
-  position:relative;
+  position:relative; 
+  display:block;
 }
 
 /* End of Perry CSS */
