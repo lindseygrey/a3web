@@ -297,8 +297,6 @@ input[type=submit]:hover {
   width: 700px;
   height: 150px;
   margin: 10px 10px 10px 10px;
-  background-color:#b8acc0;
-  border: 2px solid grey;
   padding: 50px;
   vertical-align: middle;
 }
