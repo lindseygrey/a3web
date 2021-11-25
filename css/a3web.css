@@ -77,12 +77,12 @@ a:active {
 
 .fadein { 
   position:relative; 
+  display:block; 
 }
 
 .headerimage {
   width: 100%;
   position:relative;
-  top:0%
 }
 
 /* End of Perry CSS */
