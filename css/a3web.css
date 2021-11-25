@@ -70,19 +70,19 @@ a:active {
 
 /* Perry CSS */
 .slideshow-container {
-  position: relative;
+  position: absolute;
   margin: auto;
   display:block;
 }
 
 .fadein { 
-  position:relative; 
+  position:absolute; 
   display:block; 
 }
 
 .headerimage {
   width: 100%;
-  position:relative;
+  position:absolute;
 }
 
 /* End of Perry CSS */
@@ -286,12 +286,3 @@ input[type=submit]:hover {
   padding: 20px;
 } 
 /*End Rachel's CSS */
-/* Raine update to css */
-
-.footer {
-  position: center;
-  color: white;
-}
- .footercont {
-   background-color: pink;
- }
