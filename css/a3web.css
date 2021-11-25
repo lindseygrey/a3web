@@ -69,6 +69,10 @@ a:active {
 /* End of Lindsey Section */
 
 /* Perry CSS */
+.respNav {
+  position: relative;
+}
+
 .slideshow-container {
   position: relative;
   margin: auto;
