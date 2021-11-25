@@ -289,15 +289,16 @@ input[type=submit]:hover {
 /*End Rachel's CSS */
 
 /* raine css */
-.float-container {
-  border: 3px solid #fff;
-  padding: 20px;
+.parent {
+  border: 1px solid black;
+  margin: 1rem;
+  padding: 2rem 2rem;
+  text-align: center;
 }
-
-.float-child {
-  width: 50%;
-  float: left;
-  padding: 20px;
-  border: 2px solid;
-}  
+.child {
+  display: inline-block;
+  border: 1px solid grey;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
 /* end raine css */
