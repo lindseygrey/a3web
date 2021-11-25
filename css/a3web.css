@@ -6,6 +6,8 @@
 * Date  : November 14
 * From  : https://www.w3schools.com/css/css_link.asp
 ******************/
+
+
 .h3footer {      /* some styles from here https://www.web-eau.net/blog/10-best-footer-html-css-snippets */ 
   Color: gray;
   margin-top:0;
@@ -14,7 +16,6 @@
   font-size:20px;
   text-align: center
 }
-
 
 .col {
   column-count: 3;
