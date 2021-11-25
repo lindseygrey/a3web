@@ -93,7 +93,7 @@ a:active {
 
 .respNav {
   overflow: hidden;
-  background-color: #212529;
+  background-color: #212529; /* colour updated to match footer - raine 11/25*/
 }
 
 .respNav a {
