@@ -25,7 +25,7 @@
 All these components will appear in all individual pages:
 *template from https://startbootstrap.com/template/full-width-pics*
 - [x] < head > and < footer > : Lindsey
-- [ ] JavaScript program : Lindsey
+- [ ] JavaScript alert box : Lindsey
 - [ ] Navbar: Amanda
 - [ ] Header image: Perry
 - [ ] < body >: Rachel
