@@ -70,13 +70,13 @@ a:active {
 
 /* Perry CSS */
 .slideshow-container {
-  position: absolute;
+  position:relative;
   margin: auto;
   display:block;
 }
 
 .fadein { 
-  position:absolute; 
+  position:relative; 
   display:block; 
 }
 
