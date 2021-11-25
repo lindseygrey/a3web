@@ -295,10 +295,10 @@ input[type=submit]:hover {
 .child {
   display: inline-block;
   width: 700px;
-  height: 200px;
+  height: 150px;
   margin: 10px 10px 10px 10px;
-  background-color:#AF8DC8;
-  border: 5px solid grey;
+  background-color:#b8acc0;
+  border: 2px solid grey;
   padding: 50px;
   vertical-align: middle;
 }
