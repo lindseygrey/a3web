@@ -78,7 +78,7 @@ a:active {
 }
 
 .fadein img {
-  position:relative; left:0; top:0; 
+  position:absolute; left:0; top:0; display:block;
 }
 /* End of Perry CSS */
 
