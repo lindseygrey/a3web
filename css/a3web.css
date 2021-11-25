@@ -70,19 +70,19 @@ a:active {
 
 /* Perry CSS */
 .slideshow-container {
-  position: relative;
+  position: absolute;
   margin: auto;
   display:block;
 }
 
 .fadein { 
-  position:relative; 
+  position:absolute; 
   display:block; 
 }
 
 .headerimage {
   width: 100%;
-  position:relative;
+  position:absolute;
 }
 
 /* End of Perry CSS */
