@@ -76,8 +76,7 @@ a:active {
 }
 
 .fadein { 
-  position:absolute; 
-  display:block;
+  position:relative; 
 }
 
 .headerimage {
