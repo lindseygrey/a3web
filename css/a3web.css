@@ -297,7 +297,7 @@ input[type=submit]:hover {
 }
 .child {
   display: inline-block;
-  width: 200px;
+  width: 700px;
   height: 200px;
   margin: 10px 10px 10px 10px;
   border: 5px solid grey;
