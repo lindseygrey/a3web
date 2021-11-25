@@ -29,7 +29,7 @@ All these components will appear in all individual pages:
 - [ ] Navbar: Amanda
 - [ ] Header image: Perry
 - [ ] < body >: Rachel
-- [ ] css/js edit + putting together all other components to make 1 template file for submission: Raine
+- [ ] landing card in body + css/js edit + putting together all other components to make 1 template file for submission: Raine
 
 #### Final submission - Due **8 Dec** (try to finish by the weekend of week 13)
 - [ ] All group members: Index, Meet The Team, Resources, Contact Us - Group meeting Sunday afternoon, Nov 21

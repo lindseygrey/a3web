@@ -1,49 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
+    <!-- Raine Compiled the template and edited html & css & call javascript functions, to work together -->
     <!-- Lindsey's Code -->
     <!-- Last updated Nov 14-->
     <head>
         <!-- Meta Data -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <meta name="description" content="Web Design Project" />
-        <meta name="author" content="Group 11" />
-        <title>Interplanetary Information Incorporated</title>
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Project Title</title>
         <!-- Favicon-->
         <link rel="icon" href="Images/android-chrome-512x512.png">
         <!-- CSS Links-->
         <link href="css/a3web.css" rel="stylesheet" />
         <link href="css/styles.css" rel="stylesheet" />
     </head>
-    <!-- End of Lindsey's Code -->
     <body>
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Interplanetary Information Incorporated</a> <!--text edit Rachel 11/22/2021 -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
+        <!-- Perry's code starts here -->
+        <div class="slideshow-container">
+            <div class="fadein">
+                <img src="Images/iiiheader1.png" alt="header image with the firm's name #1" class="headerimage" >
+                <img src="Images/iiiheader2.png" alt="header image with the firm's name #2" class="headerimage" > 
+                <img src="Images/iiiheader3.png" alt="header image with the firm's name #3" class="headerimage" >    
             </div>
-        </nav>
+        </div>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+        <script>
+        $(function(){
+            $('.fadein img:gt(0)').hide();
+            setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
+        });
+        </script>
+        <!-- Perry's code ends here -->   
+
+        <!-- Amanda's Code starts -->
+        <!-- Last updated Nov 24-->
+        <!-- Responsive navbar with dropdown for projects section -->
+        <div class="respNav" id="myrespNav">
+                <a href="index.html" class="active">Home</a>
+                <a href="Team.html">Team</a>
+                <a href="Contact.html">Contact</a>
+            <div class="dropdown">
+                <button class="dropbtn">Projects
+                    <i class="fa fa-caret-down"></i>
+                </button>
+            <!-- Can't get dropdown portion of menu to function possible bootstrap/js issue? -->
+            <div class="dropdown-content">
+                    <a href="LindseyProject.html">Lindsey Project</a>
+                    <a href="PerryProject.html">Perry Project</a>
+                    <a href="RachelProject.html">Rachel Project</a>
+                    <a href="IgraineProject.html">Igraine Project</a>
+                    <a href="AmandaProject.html">Amanda Project</a>
+            </div>
+            </div>
+            <a href="Resources.html">Resources</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+        </div>  
+        <script> myFunction () </script>
+
+        <!-- Amanda's Code ends -->
+
+        <!-- raine's code starts -->
+        <!-- "landing" cards last updated 11/25-->
+        <div class='parent'>
+            <div class='child cont'>
+                <h2> Are you present anywhere in the galaxy? We can help! </h2>
+                <p class="lead">Not sure where to start? Check our FAQ in Resources</p> <!-- will add link to resources page-->
+            </div>
+            <div class='child cont'>
+                <h2>Not sure how we can help you? Take a look at our services below!</h2> 
+                <p class="lead">Please note contact is currently limited to human technologies. Additional communication is under construction.</p>
+            </div>
+        </div>
+        <!-- raine's code ends -->
+
         <!--Rachel's Code start-->
         <!--Updated 11/22-->
-        <!-- Header - set the background image for the header in the line below-->
-        <header class="py-5 bg-image-full" style="background-image: url('https://pbs.twimg.com/media/EZSU-RtWsAEyI7x?format=jpg&name=large')">
-            <div class="text-center my-5">
-                <!--<img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." /> -->
-                <h1 class="text-white fs-3 fw-bolder">Interstellar Geographic Information Specialists </h1>
-                <p class="text-white-50 mb-0">Deep Spatial Analysis. Planetary Site Analysis. Cartographers of the Cosmos.  </p>
-            </div>
-        </header>
         <!-- Content section-->
         <section class="py-5">
-            <div class="container my-5">
+            <div class="container cont my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <h2>Deep Spatial Analysis</h2>
@@ -55,12 +92,10 @@
         </section>
         <!-- Image element - set the background image for the header in the line below-->
         <div class="py-5 bg-image-full" style="background-image: url('https://scx2.b-cdn.net/gfx/news/2021/nasas-ingenuity-helico.jpg')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 10rem"></div>
         </div>
         <!-- Content section-->
         <section class="py-5">
-            <div class="container my-5">
+            <div class="container cont my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <h2>Planetary Site Analysis</h2>
@@ -71,13 +106,11 @@
             </div>
         </section>
         <!-- Image element - set the background image for the header in the line below-->
-        <div class="py-5 bg-image-full" style="background-image: url('https://www.universetoday.com/wp-content/uploads/2020/03/darkenergy-2000x1200.jpg')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 10rem"></div>
+        <div class="py-5 bg-image-full" style="background-image: url('https://www.universetoday.com/wp-content/uploads/2020/03/darkenergy-2000x1200.jpg')"> 
         </div>
         <!-- Content section-->
         <section class="py-5">
-            <div class="container my-5">
+            <div class="container cont my-5">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
                         <h2>Cartographers of the Cosmos</h2>
@@ -118,15 +151,15 @@
                         <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class= "social" src="Images/youtube.png" alt="Youtube"></a><a href="https://en.wikipedia.org/wiki/Criticism_of_Facebook"><img class= "social" src="Images/facebook.png" alt="Facebook"></a></li>
                     </ul>
                 </div>
-        </div>
+            </div>
             <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Group 11, 2021</p></div>
             <div class="container"><p class="m-0 text-center text-white">Website created for Web Design and Programming Class</p></div>
 
         </footer>
         <!-- End of Lindsey's Code-->
         <!-- Bootstrap core JS-->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script> -->
         <!-- Core theme JS-->
-        <script src="js/scripts.js"></script>
+        <!-- <script src="js/scripts.js"></script> -->
     </body>
 </html>
