@@ -292,3 +292,6 @@ input[type=submit]:hover {
   position: center;
   color: white;
 }
+ .footercont {
+   background-color: pink;
+ }
