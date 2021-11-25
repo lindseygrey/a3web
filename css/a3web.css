@@ -85,15 +85,6 @@ a:active {
   display:block;
 }
 
-.py-5 {
-  position:relative; 
-}
-
-.container {
-  position:relative; 
-}
-
-
 /* End of Perry CSS */
 
 /* Amanda CSS */
@@ -103,7 +94,7 @@ a:active {
 .respNav {
   overflow: hidden;
   background-color: #333;
-  position: relative;
+  position: absolute;
 }
 
 .respNav a {
