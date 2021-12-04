@@ -113,6 +113,9 @@ a:active {
   color: #200125;
 }
 
+.navbar-dark .navbar-nav .dropdown-item .dropdown-item:hover {
+  color: #751085;
+}
 
 /* .respNav {
   overflow: hidden;
