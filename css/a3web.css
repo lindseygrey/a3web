@@ -105,6 +105,11 @@ a:active {
     color: #d32424;
 }
 
+.dropdown-menu {
+  color: #6daef8;
+}
+
+
 .navbar-dark .navbar-nav .dropdown-item {
   color: #200125;
 }
