@@ -105,14 +105,12 @@ a:active {
     color: #d32424;
 }
 
-ul.dropdown-menu {
-  background-color: yellow;
-}
-
-
 .navbar-dark .navbar-nav .dropdown-item {
   color: #200125;
 }
+
+.nav-link {color: #0adbdb;}
+.nav-link:hover {color: #0f0;}
 
 /* .respNav {
   overflow: hidden;
