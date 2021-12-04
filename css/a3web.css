@@ -95,6 +95,10 @@ a:active {
 /* Date: Nov 21 */
 /* From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
+.navbar-nav {
+  margin-left: auto;
+}
+
 /* .respNav {
   overflow: hidden;
   background-color: #212529; /* colour updated to match footer - raine 11/25*/
