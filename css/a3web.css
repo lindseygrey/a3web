@@ -170,10 +170,11 @@ a:active {
 .button:hover {
   background-color: #555;
 } 
-/*End meet the team css*/
+/*End TEAM css*/
 
 /*Added 11/24. */
-/* Rachel added content and updated content and style for Conact us form 12/4 */
+/* Updated 12/4 */
+/* Rachel added content and updated content and style for Contact us form*/
 /*CSS for Contact form adapted from w3schools:  https://www.w3schools.com/howto/howto_css_contact_form.asp  */
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
