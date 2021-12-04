@@ -98,11 +98,12 @@ a:active {
 .navbar-nav {
   margin-left: auto;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: rgb(29, 1, 66)
 }
-.navbar-nav .navbar-dark {
+/* .navbar-nav .navbar-dark {
   background-color: rgb(29, 1, 66);
 
-}
+} */
 
 /* .respNav {
   overflow: hidden;
