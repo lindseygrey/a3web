@@ -113,7 +113,7 @@ a:active {
   color: #200125;
 }
 
-.navbar-dark .navbar-nav .dropdown-item .dropdown-item:hover {
+.navbar-dark .navbar-nav .nav-link dropdown-toggle {
   color: #751085;
 }
 
