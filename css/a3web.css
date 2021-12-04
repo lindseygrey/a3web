@@ -100,8 +100,14 @@ a:active {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
+.navbar-dark .navbar-nav > .active > a,
+.navbar-dark .navbar-nav > .active > a:hover,
+.navbar-dark .navbar-nav > .active > a:focus {
+    color: #FFF;
+    background-color: #AA0000;
+}
  
-.navbar-dark .navbar-nav .nav-link {
+/* .navbar-dark .navbar-nav .nav-link {
     color: #d3c7fc;
 }
 
@@ -115,7 +121,7 @@ a:active {
 
 .navbar-dark .navbar-nav .dropdown-item a {
   color: #751085;
-}
+} */
 
 /* .respNav {
   overflow: hidden;
