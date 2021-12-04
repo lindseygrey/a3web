@@ -100,11 +100,8 @@ a:active {
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   }
 
-  .navbar .navbar-expand-sm .bg-dark .navbar-dark {
-    background-color: cadetblue;
-
-  }
-  .navbar-dark .navbar-nav .nav-link {
+ 
+.navbar-dark .navbar-nav .nav-link {
     color: #d32424;
 }
 
