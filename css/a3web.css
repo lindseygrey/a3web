@@ -95,9 +95,10 @@ a:active {
 /* Date: Nov 21 */
 /* From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
+
 .navbar-nav {
   margin-left: auto;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif  ;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
   }
 
  
