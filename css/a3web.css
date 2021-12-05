@@ -73,20 +73,23 @@ a:active {
 /* Resources Page Section CSS Added Dec 4th*/
 details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/   
   padding: 4px;  
-  width: 200px;
-  background-color: #eeeeee;
+  width: 500px;
+  background-color: #343a40; /* Match the heading colour scheme */
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
   cursor: pointer;
   font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
-  font-weight:300   
+  font-weight:300 ;
+  color: #d3c7fc /* Match the heading colour scheme */
 
 }
 details > p {
-  background-color: #eeeeee;
+  background-color: #343a40; /* Match the heading colour scheme */
+  width: 500px;
   padding: 4px;
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
+  color: #d3c7fc /* Match the heading colour scheme */
 }
 /* End of Lindsey Section */
 
