@@ -8,35 +8,82 @@
         <title>Full Width Pics - Start Bootstrap Template</title>
         <!-- Favicon-->
         <link rel="icon" href="Images/android-chrome-512x512.png">
-        <!-- Core theme CSS (includes Bootstrap)-->
-     <!--Rachel adding in our css 11/24-->
-        <link href="css/styles.css" rel="stylesheet" />
+        <!--Rachel adding in our css 11/24-->
+        <!--Rachel updated TEAM information, content, added Grudge, added img and relative path-->
+        <!--Rachle added new css approach, nav bar, header-->
+        <!--OLD CSS-->
+        <!-- <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/a3web.css" rel="stylesheet" /> -->
+        <!--<link href="css/styles.css" rel="stylesheet" /> -->
+        <!-- incorporating boostrap here AT -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
         <link href="css/a3web.css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     </head>
-    <body>
-        <!--Rachel Updated body 11/24-->
-        <!-- Responsive navbar-->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container">
-                <a class="navbar-brand" href="#!">Interplanetary Information Incorporated</a> <!--text edit Rachel 11/24/2021 -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">Home</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">About</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#!">Contact</a></li>
-                    </ul>
-                </div>
+    <body> 
+                <!-- Perry's code starts here -->
+        <!-- Probably will change the slideshow idea into just 1 still image background + the name on top of it as hyperlink-->
+        <!-- <div class="slideshow-container">
+            <div class="fadein">
+                <img src="Images/iiiheader1.png" alt="Interstellar Information Incorporated" class="headerimage" >   
             </div>
-        </nav>
-        <!-- Header - set the background image for the header in the line below-->
+        </div> -->
+
+        <!-- Content section-->        <!-- Header - set the background image for the header in the line below-->
         <header class="py-5 bg-image-full" style="background-image: url('https://pbs.twimg.com/media/EZSU-RtWsAEyI7x?format=jpg&name=large')">
             <div class="text-center my-5">
                 <!--<img class="img-fluid rounded-circle mb-4" src="https://dummyimage.com/150x150/6c757d/dee2e6.jpg" alt="..." /> -->
-                <h1 class="text-white fs-3 fw-bolder">Interstellar Geographic Information Specialists </h1>
+                <h1 class="text-white fs-3 fw-bolder">III </h1>
+                <h2 class="text-white fs-3 fw-bolder">Interplanetary Information Incorporated </h2>
                 <p class="text-white-50 mb-0">Deep Spatial Analysis. Planetary Site Analysis. Cartographers of the Cosmos.  </p>
             </div>
         </header>
+        <!-- Content section-->
+<!-- Amanda's Nav Code starts -->
+    <!-- Last updated December 3rd-->
+    <!-- new improved bootstrap navbar - now with real dropdown! -->
+    <!-- REFERENCE https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+    
+    <!-- NOTE bootstrap has specific nav class syntax that it likes and it only stopped breaking when I kept their standard class names, AT -->
+    
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+      <!-- Brand THEORETICALLY LOGO LINK COULD GO IN HERE IF it wasn't our main header image
+      <a class="navbar-brand" href="#">Logo</a>
+     -->
+      
+     <!-- Links start- -->
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Team.html">Team</a>
+        </li>
+    
+        <!-- Dropdown a rootin tootin working dropdown for our projects -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+            Projects
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="LindseyProject.html">Lindsey Project</a>
+            <a class="dropdown-item" href="PerryProject.html">Perry Project</a>
+            <a class="dropdown-item" href="RachelProject.html">Rachel Project</a>
+            <a class="dropdown-item" href="IgraineProject.html">Igraine Project</a>
+            <a class="dropdown-item" href="AmandaProject.html">Amanda Project</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Resources.html">Resources</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="Contact.html">Contact</a>
+        </li>
+      </ul>
+    </nav>
+<!-- end of Amanda's dropdown navbar code -->
         <!-- Content section-->
         <!--Rachel Adding Meet The Team HTML. Adapted from W3Schools: https://www.w3schools.com/howto/howto_css_team.asp -->
         <!--Added 11/24-->
@@ -51,8 +98,8 @@
                                 <div class="container">
                                   <h2>Nyota Uhura</h2>
                                   <p class="title">CEO &amp; Founder</p>
-                                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                  <p>example@example.com</p>
+                                  <p>GIS Analyst. Spatial Data Scientist. <br/>"Things are only impossible until they're not."</p>
+                                  <p>uhura@iii.com</p>
                                   <!--<p><button class="button">Contact</button></p> -->
                                 </div>
                               </div>
@@ -63,9 +110,9 @@
                                 <img src="https://www.thewrap.com/wp-content/uploads/2016/07/star-trek-dax.png" alt="Dax" style="width:100%">
                                 <div class="container">
                                   <h2>Jadzia Dax</h2>
-                                  <p class="title">Art Director</p>
-                                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                  <p>example@example.com</p>
+                                  <p class="title">Geospatial Analyst, Astrophysicist</p>
+                                  <p>Pushing code, punching numbers, revelatory insights. <br> Pun Wizard.</p>
+                                  <p>dax@iii.com</p>
                                   <!--<p><button class="button">Contact</button></p> -->
                                 </div>
                               </div>
@@ -76,9 +123,9 @@
                                 <img src="https://www.thewrap.com/wp-content/uploads/2016/07/star-trek-sulu-e1534182603687.jpg" alt="Takei" style="width:100%">
                                 <div class="container">
                                   <h2>Hikaru Sulu</h2>
-                                  <p class="title">Designer</p>
-                                  <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                  <p>example@example.com</p>
+                                  <p class="title">Cartographic Specialist</p>
+                                  <p>Ad Astra. <br/> "The absence of evidence is not the evidence of absence." </p>
+                                  <p>sulu@iii.com</p>
                                   <!--<p><button class="button">Contact</button></p> -->
                                 </div>
                               </div>
@@ -90,8 +137,8 @@
                                     <div class="container">
                                       <h2>Captain Janeway</h2>
                                       <p class="title">CEO &amp; Founder</p>
-                                      <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                      <p>example@example.com</p>
+                                      <p>Remote Sensing Analyst: Edge of Known Universe<br/>"Change is the essential process of all existence." </p>
+                                      <p>janeway@iii.com</p>
                                       <!--<p><button class="button">Contact</button></p> -->
                                     </div>
                                   </div>
@@ -102,9 +149,22 @@
                                     <img src="https://www.thewrap.com/wp-content/uploads/2016/07/star-trek-la-forge.jpg" alt="Lemar" style="width:100%">
                                     <div class="container">
                                       <h2>Geordi La Forge</h2>
-                                      <p class="title">Art Director</p>
-                                      <p>Some text that describes me lorem ipsum ipsum lorem.</p>
-                                      <p>example@example.com</p>
+                                      <p class="title">GIS Architect</p>
+                                      <p>Senior Analyst, Data and Visualization<br/>
+                                        "If you wish to make an apple pie from scratch, you must first invent the universe." </p>
+                                      <p>geordi@iii.com</p>
+                                      <!--<p><button class="button">Contact</button></p> -->
+                                    </div>
+                                  </div>
+                                </div>
+                                <div class="column">
+                                  <div class="card">
+                                    <img src="Images/GrudgeCropped.JPG" alt="Grudge the Cat" style="width:100%">
+                                    <div class="container">
+                                      <h2>Grudge</h2>
+                                      <p class="title">Co-Pilot, Interplanetary Voyager</p>
+                                      <p>Amateur Cryptozoologist. Opinions my own. <br/>"We are star stuff which has taken its destiny into its own hands." </p>
+                                      <p>grudge@iii.com</p>
                                       <!--<p><button class="button">Contact</button></p> -->
                                     </div>
                                   </div>
@@ -116,9 +176,9 @@
             </div>
         </section>
         <!-- Image element - set the background image for the header in the line below-->
-           <div class="py-5 bg-image-full" style="background-image: url('https://www.universetoday.com/wp-content/uploads/2020/03/darkenergy-2000x1200.jpg')">
-            <!-- Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
-            <div style="height: 5rem"></div>
+           <!-- <div class="py-5 bg-image-full" style="background-image: url('https://www.universetoday.com/wp-content/uploads/2020/03/darkenergy-2000x1200.jpg')">
+            Put anything you want here! The spacer below with inline CSS is just for demo purposes!-->
+            <!-- <div style="height: 5rem"></div> -->
         </div>
         <!-- Content section-->
  <!--     <section class="py-5">

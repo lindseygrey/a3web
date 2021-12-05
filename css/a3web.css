@@ -95,108 +95,26 @@ a:active {
 /* Date: Nov 21 */
 /* From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
-.respNav {
-  overflow: hidden;
-  background-color: #212529; /* colour updated to match footer - raine 11/25*/
-}
 
-.respNav a {
-  float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-  font-size: 17px;
-}
-
-.active {
-  background-color: #4a0462;
-  color: white;
-}
-
-.respNav .icon {
-  display: none;
-}
-/* Can't get dropdown portion of menu to function possible bootstrap/js issue? */
-.dropdown {
-  float: right;
-  overflow: hidden;
-}
-
-.dropdown .dropbtn {
-  font-size: 17px;    
-  border: none;
-  outline: none;
-  color: white;
-  padding: 14px 16px;
-  background-color: inherit;
-  font-family: inherit;
-  margin: 0;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #f9f9f9;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
-
-.dropdown-content a {
-  float: none;
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
-
-.respNav a:hover, .dropdown:hover .dropbtn {
-  background-color: #555;
-  color: white;
-}
-
-.dropdown-content a:hover {
-  background-color: #ddd;
-  color: black;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-@media screen and (max-width: 600px) {
-  .respNav a:not(:first-child), .dropdown .dropbtn {
-    display: none;
+.navbar-nav {
+  margin-left: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
   }
-  .respNav a.icon {
-    float: right;
-    display: block;
-  }
+
+ 
+.navbar-dark .navbar-nav .nav-link {
+    color: #d3c7fc;
 }
 
-@media screen and (max-width: 600px) {
-  .respNav.responsive {position: relative;}
-  .respNav.responsive .icon {
-    position: absolute;
-    right: 0;
-    top: 0;
-  }
-  .respNav.responsive a {
-    float: none;
-    display: block;
-    text-align: left;
-  }
-  .respNav.responsive .dropdown {float: none;}
-  .respNav.responsive .dropdown-content {position: relative;}
-  .respNav.responsive .dropdown .dropbtn {
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #fc61ef;
 }
+
+.navbar-dark .navbar-nav .dropdown-item {
+  color: #35013d;
+}
+
+
 /*Rachel's CSS for Meet the Team*/
 /*11/24*/
 /*Adaped from w3schools: https://www.w3schools.com/howto/howto_css_team.asp */
@@ -252,9 +170,11 @@ a:active {
 .button:hover {
   background-color: #555;
 } 
-/*End meet the team css*/
+/*End TEAM css*/
 
 /*Added 11/24. */
+/* Updated 12/4 */
+/* Rachel added content and updated content and style for Contact us form*/
 /*CSS for Contact form adapted from w3schools:  https://www.w3schools.com/howto/howto_css_contact_form.asp  */
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
@@ -269,18 +189,19 @@ a:active {
 }
 
 /* Style the submit button with a specific background color etc */
+/* Updated 12/4 to coordinate and match colours with nav bar - Rachel  */
 input[type=submit] {
-  background-color: #04AA6D;
-  color: white;
+  background-color: #d3c7fc;
+  color: black;
   padding: 12px 20px;
   border: none;
   border-radius: 4px;
   cursor: pointer;
 }
 
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a magenta colour to match nav bar */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #fc61ef;
 }
 
 /* Add a background color and some padding around the form */
