@@ -70,7 +70,15 @@ a:hover {
 a:active {
   color: white;
 }
-
+/* Resources Section CSS Added Dec 4th*/
+details > summary {
+  padding: 4px;
+  width: 200px;
+  background-color: #eeeeee;
+  border: none;
+  box-shadow: 1px 1px 2px #bbbbbb;
+  cursor: pointer;
+}
 /* End of Lindsey Section */
 
 /* Perry CSS */
