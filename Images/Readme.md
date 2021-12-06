@@ -21,3 +21,4 @@ https://pixabay.com/illustrations/space-universe-galaxy-sky-stars-4748908/
 https://www.teahub.io/viewwp/mJoJhi_pink-space-desktop-backgrounds/ 
 - Chromatica photos:
 https://twitter.com/thehausnews/status/1266801213607227392 
+https://gagadaily.com/forums/topic/352835-chromatica-game-ideas/ 
