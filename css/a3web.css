@@ -134,8 +134,15 @@ iframe {
 .headerlogo {
   font-family: 'Orbitron', sans-serif;
   --bs-text-opacity: 1;
-  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity));
-  font-size: 3rem;
+  color: whitesmoke;
+  font-size: 10rem;
+}
+
+.headerlogotext {
+  font-family: 'Orbitron', sans-serif;
+  --bs-text-opacity: 1;
+  color: rgba(255, 255, 255, 0.5) !important;
+  margin-bottom: 0 !important;
 }
 
 /* End of Perry CSS */
