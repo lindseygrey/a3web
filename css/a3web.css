@@ -131,8 +131,11 @@ iframe {
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
-#headertext {
+.headerlogo {
   font-family: 'Orbitron', sans-serif;
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb), var(--bs-text-opacity));
+  font-size: 3rem;
 }
 
 /* End of Perry CSS */
