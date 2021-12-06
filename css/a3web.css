@@ -156,12 +156,12 @@ iframe {
   -webkit-text-stroke: 1px black;
 }
 
-.my-5 {
+.my-5h {
   margin-top: 0.5rem !important;
   margin-bottom: 0.5rem !important;
 }
 
-.py-5 {
+.py-5h {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
 }
