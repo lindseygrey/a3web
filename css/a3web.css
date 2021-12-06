@@ -123,8 +123,15 @@ details > p {
   background-attachment: scroll;
   background-position: center;
   background-size: 100%;
- } 
+} 
 
+iframe {
+  width: 100%;
+  height: 380;
+  frameBorder : 0;
+  allowfullscreen: "" ;
+  allow: "autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" ;
+}
 /* End of Perry CSS */
 
 /* Amanda CSS */
