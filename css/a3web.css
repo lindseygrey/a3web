@@ -144,6 +144,7 @@ iframe {
   --bs-text-opacity: 1;
   color: whitesmoke;
   font-size: 7rem;
+  -webkit-text-stroke: 1px black;
 }
 
 .headerlogotext {
@@ -151,6 +152,7 @@ iframe {
   --bs-text-opacity: 1;
   color: rgba(255, 255, 255, 0.5) !important;
   margin-bottom: 0 !important;
+  -webkit-text-stroke: 1px black;
 }
 
 .my-5 {
