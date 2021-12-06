@@ -130,6 +130,11 @@ iframe {
   height: 80;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+#headertext {
+  font-family: 'Orbitron', sans-serif;
+}
+
 /* End of Perry CSS */
 
 /* Amanda CSS */
