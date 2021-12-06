@@ -15,47 +15,48 @@
     </head>
     <body>
         <!-- Perry's code starts here -->
+        <!-- Header image above navbar -->
         <div class="slideshow-container">
             <div class="fadein">
-                <img src="Images/iiiheader1.png" alt="header image with the firm's name #1" class="headerimage" >
-                <img src="Images/iiiheader2.png" alt="header image with the firm's name #2" class="headerimage" > 
-                <img src="Images/iiiheader3.png" alt="header image with the firm's name #3" class="headerimage" >    
+                <img src="Images/iiibackground.png" alt="header image with the firm's name #1" class="headerimage" >   
+                <a href="https://lindseygrey.github.io/a3web/index.html"><img src="Images/iiilogo.png" alt = "the firm's logo" class="logo"></a>
             </div>
         </div>
-        
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-        <script>
-        $(function(){
-            $('.fadein img:gt(0)').hide();
-            setInterval(function(){$('.fadein :first-child').fadeOut().next('img').fadeIn().end().appendTo('.fadein');}, 3000);
-        });
-        </script>
-        <!-- Perry's code ends here -->        
-        <!-- Amanda's Code starts -->
-        <!-- Last updated Nov 24-->
-        <!-- Responsive navbar with dropdown for projects section -->
-        <div class="respNav" id="myrespNav">
-            <a href="index.html" class="active">Home</a>
-            <a href="Team.html">Team</a>
-            <a href="Contact.html">Contact</a>
-            <div class="dropdown">
-              <button class="dropbtn">Projects
-                <i class="fa fa-caret-down"></i>
-              </button>
-              <!-- Can't get dropdown portion of menu to function possible bootstrap/js issue? -->
-              <div class="dropdown-content">
-                    <a href="LindseyProject.html">Lindsey Project</a>
-                    <a href="PerryProject.html">Perry Project</a>
-                    <a href="RachelProject.html">Rachel Project</a>
-                    <a href="IgraineProject.html">Igraine Project</a>
-                    <a href="AmandaProject.html">Amanda Project</a>
-              </div>
-            </div>
-            <a href="Resources.html">Resources</a>
-            <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-        </div>  
-        <script> myFunction () </script>
-        <!-- Amanda's Code ends -->
+        <!-- Perry's code ends here -->
+        <!-- Amanda's Nav Code starts -->
+        <!-- Last updated December 6th-->
+        <!-- new improved bootstrap navbar - now with real dropdown! -->
+        <!-- REFERENCE https://www.w3schools.com/bootstrap4/bootstrap_navbar.asp -->
+        <!-- NOTE bootstrap has specific nav class syntax that it likes and it only stopped breaking when I kept their standard class names, AT -->        
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <!-- Links start- -->
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Team.html">Team</a>
+            </li>
+            <!-- Dropdown a rootin tootin working dropdown for our projects -->
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">Projects</a>
+                <div class="dropdown-menu">
+                <a class="dropdown-item" href="LindseyProject.html">Lindsey Project</a>
+                <a class="dropdown-item" href="PerryProject.html">Project Chromatica</a>
+                <a class="dropdown-item" href="RachelProject.html">Rachel Project</a>
+                <a class="dropdown-item" href="IgraineProject.html">Igraine Project</a>
+                <a class="dropdown-item" href="AmandaProject.html">Amanda Project</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Resources.html">Resources</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="Contact.html">Contact</a>
+            </li>
+            </ul>
+        </nav>
+        <!-- end of Amanda's dropdown navbar code -->
         <!-- raine's code starts -->
         <div class='parent'>
             <div class='child cont'>
@@ -68,5 +69,43 @@
             </div>
         </div>
         <!-- raine's code ends -->
+        <!-- Lindsey's Code-->
+        <!-- Last updated Dec 06, 2021-->
+        <!-- Footer-->
+        <footer class="py-5 bg-dark">
+            <div class="container">
+            <div class="row">
+                <div class = "col-sm-4">
+                    <h3 class= h3footer >About</h3>
+                    <ul>
+                        <li><a class= "footerlink" href="index.html">Home</a></li>
+                        <li><a class= "footerlink" href="Team.html">Team</a></li>
+                        <li><a class= "footerlink" href="Resources.html">Resources</a></li>
+                        <li><a class= "footerlink" href="Contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class = "col-sm-4">
+                    <h3 class = h3footer>Projects</h3>
+                    <ul>
+                        <li><a class= "footerlink" href="LindseyProject.html">Project Lindsey</a></li>
+                        <li><a class= "footerlink" href="PerryProject.html">Project Chromatica</a></li>
+                        <li><a class= "footerlink" href="RachelProject.html">Project Rachel</a></li>
+                        <li><a class= "footerlink" href="IgraineProject.html">Project Igraine</a></li>
+                        <li><a class= "footerlink" href="AmandaProject.html">Project Amanda</a></li>
+                    </ul>
+                </div>
+                <div class = "col-sm-4">
+                    <h3 class = h3footer>Social</h3>
+                    <ul>
+                        <li><a href="https://www.instagram.com/linden.grey/"><img class= "social" src="Images/insta.png" alt="Instagram"></a><a href="https://twitter.com/NASAPersevere/"><img class= "social" src="Images/twitter.png" alt="Twitter"></a></li>
+                        <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class= "social" src="Images/youtube.png" alt="Youtube"></a><a href="https://en.wikipedia.org/wiki/Criticism_of_Facebook"><img class= "social" src="Images/facebook.png" alt="Facebook"></a></li>
+                    </ul>
+                </div>
+            </div>    
+        </div>
+            <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Group 11, 2021</p></div>
+            <div class="container"><p class="m-0 text-center text-white">Website created for Web Design and Programming Class</p></div>
+        </footer>
+        <!-- End of Lindsey's Code-->
     </body>
 </html>
