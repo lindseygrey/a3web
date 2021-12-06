@@ -22,3 +22,4 @@ https://www.teahub.io/viewwp/mJoJhi_pink-space-desktop-backgrounds/
 - Chromatica photos:
 https://twitter.com/thehausnews/status/1266801213607227392 
 https://gagadaily.com/forums/topic/352835-chromatica-game-ideas/ 
+https://www.scirp.org/journal/paperinformation.aspx?paperid=82271
