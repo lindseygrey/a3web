@@ -135,7 +135,7 @@ iframe {
   font-family: 'Orbitron', sans-serif;
   --bs-text-opacity: 1;
   color: whitesmoke;
-  font-size: 10rem;
+  font-size: 7rem;
 }
 
 .headerlogotext {
@@ -146,10 +146,14 @@ iframe {
 }
 
 .my-5 {
-  margin-top: 1rem !important;
-  margin-bottom: 1rem !important;
+  margin-top: 0.5rem !important;
+  margin-bottom: 0.5rem !important;
 }
 
+.py-5 {
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+}
 /* End of Perry CSS */
 
 /* Amanda CSS */
