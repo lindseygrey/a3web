@@ -7,7 +7,7 @@
 
 - [x] Picking a3web master repository hosted by one group member: Lindsey's repository https://github.com/lindseygrey/a3web
 - [x] Divide the components for template design - before lab week 10 (11 Nov) 
-- [ ] Complete template design - before week 12 (25 Nov)
+- [x] Complete template design - before week 12 (25 Nov)
 - [ ] Complete the final submission - before due date (8 Dec)
 
 #### In-Lab Demonstration
@@ -36,6 +36,6 @@ All these components will appear in all individual pages:
 - [ ] Amanda's individual mock GIS project as example
 - [ ] Igraine's individual mock GIS project as example
 - [ ] Lindsey's individual mock GIS project as example
-- [ ] Perry's individual mock GIS project as example
+- [x] Perry's individual mock GIS project as example
 - [ ] Rachel's individual mock GIS project as example
 - [ ] All group members: Error checking before final submission
