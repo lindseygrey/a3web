@@ -37,55 +37,9 @@
 <div class="slideshow-container">
     <div class="fadein">
         <img src="Images/iiibackground.png" alt="header image with the firm's name #1" class="headerimage" >   
-        <a href="https://www.youtube.com/watch?v=tollGa3S0o8&ab_channel=TaylorSwiftVEVO"><img src="Images/iiilogo.png" alt = "the firm's logo" class="logo"></a>
+        <a href="https://lindseygrey.github.io/a3web/index.html"><img src="Images/iiilogo.png" alt = "the firm's logo" class="logo"></a>
     </div>
 </div>
-
-
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script>
-function slideSwitch() {
-    var $active = $('#slideshow IMG.active');
-    var $next = $active.next();
-    $next.addClass('active');
-    $active.removeClass('active');
-}
-$(function() {
-    setInterval( "slideSwitch()", 5000 );
-});
-
-function slideSwitch() {
-    var $active = $('#slideshow IMG.active');
-    var $next = $active.next();
-    $active.addClass('last-active');
-    $next.css({opacity: 0.0})
-        .addClass('active')
-        .animate({opacity: 1.0}, 1000, function() {
-            $active.removeClass('active last-active');
-        });
-}
-$(function() {
-    setInterval( "slideSwitch()", 5000 );
-});
-
-function slideSwitch() {
-    var $active = $('#slideshow IMG.active');
-    if ( $active.length == 0 ) $active = $('#slideshow IMG:last');
-    var $next =  $active.next().length ? $active.next()
-        : $('#slideshow IMG:first');
-    $active.addClass('last-active');
-        
-    $next.css({opacity: 0.0})
-        .addClass('active')
-        .animate({opacity: 1.0}, 1000, function() {
-            $active.removeClass('active last-active');
-        });
-}
-$(function() {
-    setInterval( "slideSwitch()", 5000 );
-});
-</script>
     <!-- Perry's code ends here -->
 
 <!-- Amanda's Nav Code starts -->
@@ -132,15 +86,46 @@ $(function() {
       </nav>
 <!-- end of Amanda's dropdown navbar code -->
 
-<ul>
-    <li><a class="active" href="#home">Home</a></li>
-    <li><a href="#news">News</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#about">About</a></li>
-    </ul>
-    
-    </body>
-    </html>
+<!-- Lindsey's Code-->
+<!-- Last updated Dec 02, 2021-->
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container">
+    <div class="row">
+        <div class = "col-sm-4">
+            <h3 class= h3footer >About</h3>
+            <ul>
+                <li><a class= "footerlink" href="index.html">Home</a></li>
+                <li><a class= "footerlink" href="Team.html">Team</a></li>
+                <li><a class= "footerlink" href="Resources.html">Resources</a></li>
+                <li><a class= "footerlink" href="Contact.html">Contact</a></li>
+                <br>
+            </ul>
+        </div>
+        <div class = "col-sm-4">
+            <h3 class = h3footer>Projects</h3>
+            <ul>
+                <li><a class= "footerlink" href="LindseyProject.html">Project Lindsey</a></li>
+                <li><a class= "footerlink" href="PerryProject.html">Project Perry</a></li>
+                <li><a class= "footerlink" href="RachelProject.html">Project Rachel</a></li>
+                <li><a class= "footerlink" href="IgraineProject.html">Project Igraine</a></li>
+                <li><a class= "footerlink" href="AmandaProject.html">Project Amanda</a></li>
+            </ul>
+        </div>
+        <div class = "col-sm-4">
+            <h3 class = h3footer>Social</h3>
+            <ul>
+                <li><a href="https://www.instagram.com/linden.grey/"><img class= "social" src="Images/insta.png" alt="Instagram"></a><a href="https://twitter.com/NASAPersevere/"><img class= "social" src="Images/twitter.png" alt="Twitter"></a></li>
+                <li><a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"><img class= "social" src="Images/youtube.png" alt="Youtube"></a><a href="https://en.wikipedia.org/wiki/Criticism_of_Facebook"><img class= "social" src="Images/facebook.png" alt="Facebook"></a></li>
+            </ul>
+        </div>
+    </div>    
+</div>
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Group 11, 2021</p></div>
+    <div class="container"><p class="m-0 text-center text-white">Website created for Web Design and Programming Class</p></div>
+
+</footer>
+<!-- End of Lindsey's Code-->
 
 
 </body>
