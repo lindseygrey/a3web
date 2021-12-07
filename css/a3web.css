@@ -50,7 +50,11 @@ ul {
 .footerlink:hover {
   color: grey
 }
-
+.secret{
+  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
+  font-weight:300 ;
+  color: #343a40 
+}
 /* unvisited link */
 a:link {
   color: whitesmoke;
@@ -74,7 +78,7 @@ a:active {
 details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/   
   padding: 4px;  
   width: 500px;
-  background-color: whitesmoke; 
+  background-color: #d3c7fc; 
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
   cursor: pointer;
