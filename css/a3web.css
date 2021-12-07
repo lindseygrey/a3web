@@ -321,7 +321,7 @@ input[type=submit]:hover {
   color: #35013d;
 }
 
- .back {
+.back {
   background-image: url(Images/kashyyyk_habitats.jpg);
   background-attachment: fixed
 } 
