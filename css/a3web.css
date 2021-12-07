@@ -42,7 +42,7 @@ ul {
   padding-bottom: 5px;
   padding-left: 5px;
 }
-.footerlink {
+.footerlink{
   color: whitesmoke;
   text-decoration: none;
   }
@@ -50,11 +50,17 @@ ul {
 .footerlink:hover {
   color: grey
 }
-.secret{
+.secret:link{
   font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
   font-weight:300 ;
   color: #343a40 
 }
+.secret:hover{
+  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
+  font-weight:300 ;
+  color: #343a40 
+}
+
 /* unvisited link */
 a:link {
   color: whitesmoke;
