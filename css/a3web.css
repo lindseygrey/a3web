@@ -185,7 +185,8 @@ iframe {
 }
 
 .spacefeline {
-  margin-bottom: 60px;
+  padding: 100px;
+  /* margin-bottom: 60px; */
 }
 
 /*Rachel's CSS for Meet the Team*/
