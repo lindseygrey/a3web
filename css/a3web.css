@@ -78,7 +78,8 @@ details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/
   font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
   font-weight:300 ;
   color: #343a40 ;
-  margin: 2%
+  margin: 2%;
+  width: auto
 }
 details > p {
   background-color: whitesmoke; 
@@ -87,7 +88,8 @@ details > p {
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
   color: #343a40;
-  margin: 2%
+  margin: 2%;
+  width: auto
 }
 /* End of Lindsey Section */
 
