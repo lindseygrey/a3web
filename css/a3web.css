@@ -64,6 +64,11 @@ a.secret {
   color: #343a40 
 }
 
+/* Personal Project Page CSS */
+.tribble {
+  margin : auto
+}
+
 /* Resources Page Section CSS Added Dec 4th*/
 details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/   
   padding: 4px;  
