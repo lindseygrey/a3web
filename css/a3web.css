@@ -50,7 +50,9 @@ ul {
 .footerlink:hover {
   color: grey
 }
-
+a.secret {
+  color: #343a40 
+}
 .secret:link{
   font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
   font-weight:300 ;
