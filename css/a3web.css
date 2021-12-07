@@ -66,7 +66,10 @@ a.secret {
 
 /* Personal Project Page CSS */
 .tribble {
-  margin : auto
+  margin : 2%
+}
+.map {
+  margin: 2%
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
