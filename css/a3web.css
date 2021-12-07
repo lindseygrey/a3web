@@ -50,28 +50,9 @@ ul {
 .footerlink:hover {
   color: grey
 }
-
-
-/* unvisited link */
-a:link {
-  color: whitesmoke;
+a.secret {
+  color: #343a40 
 }
-
-/* visited link */
-a:visited {
-  color: whitesmoke;
-}
-
-/* mouse over link */
-a:hover {
-  color: gray;
-}
-
-/* selected link */
-a:active {
-  color: white;
-}
-
 .secret:link{
   font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
   font-weight:300 ;
