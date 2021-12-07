@@ -50,16 +50,7 @@ ul {
 .footerlink:hover {
   color: grey
 }
-.secret:link{
-  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
-  font-weight:300 ;
-  color: #343a40 
-}
-.secret:hover{
-  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
-  font-weight:300 ;
-  color: #343a40 
-}
+
 
 /* unvisited link */
 a:link {
@@ -80,6 +71,18 @@ a:hover {
 a:active {
   color: white;
 }
+
+.secret:link{
+  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
+  font-weight:300 ;
+  color: #343a40 
+}
+.secret:hover{
+  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
+  font-weight:300 ;
+  color: #343a40 
+}
+
 /* Resources Page Section CSS Added Dec 4th*/
 details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/   
   padding: 4px;  
