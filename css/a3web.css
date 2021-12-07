@@ -316,4 +316,15 @@ input[type=submit]:hover {
   padding: 50px;
   vertical-align: middle;
 }
+
+.FAQ {
+  color: #35013d
+}
+
+.back {
+  background-image: url(Images/kashyyyk_habitats.jpg);
+  background-attachment: fixed;
+}
+
+
 /* end raine css */
