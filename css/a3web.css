@@ -42,7 +42,7 @@ ul {
   padding-bottom: 5px;
   padding-left: 5px;
 }
-.footerlink {
+.footerlink{
   color: whitesmoke;
   text-decoration: none;
   }
@@ -50,6 +50,7 @@ ul {
 .footerlink:hover {
   color: grey
 }
+
 
 /* unvisited link */
 a:link {
@@ -70,26 +71,38 @@ a:hover {
 a:active {
   color: white;
 }
+
+.secret:link{
+  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
+  font-weight:300 ;
+  color: #343a40 
+}
+.secret:hover{
+  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
+  font-weight:300 ;
+  color: #343a40 
+}
+
 /* Resources Page Section CSS Added Dec 4th*/
 details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/   
   padding: 4px;  
   width: 500px;
-  background-color: #343a40; /* Match the heading colour scheme */
+  background-color: #d3c7fc; 
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
   cursor: pointer;
   font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
   font-weight:300 ;
-  color: #d3c7fc /* Match the heading colour scheme */
+  color: #343a40 
 
 }
 details > p {
-  background-color: #343a40; /* Match the heading colour scheme */
+  background-color: whitesmoke; 
   width: 500px;
   padding: 4px;
   margin: 0;
   box-shadow: 1px 1px 2px #bbbbbb;
-  color: #d3c7fc /* Match the heading colour scheme */
+  color: #343a40 
 }
 /* End of Lindsey Section */
 
