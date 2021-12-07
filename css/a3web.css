@@ -70,7 +70,6 @@ a.secret {
 /* Resources Page Section CSS Added Dec 4th*/
 details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/   
   padding: 4px;  
-  width: 500px;
   background-color: #d3c7fc; 
   border: none;
   box-shadow: 1px 1px 2px #bbbbbb;
@@ -83,10 +82,9 @@ details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/
 }
 details > p {
   background-color: whitesmoke; 
-  width: 500px;
   padding: 4px;
   margin: 0;
-  box-shadow: 1px 1px 2px #bbbbbb;
+  box-shadow: 3px 3px 3px #bbbbbb;
   color: #343a40;
   margin: 2%;
   width: auto
