@@ -69,7 +69,8 @@ a.secret {
   margin : 2%
 }
 .map {
-  margin: 2%
+  margin: 2%;
+  width : 100%
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
