@@ -65,20 +65,21 @@
         </nav>
         <!-- end of Amanda's dropdown navbar code -->
 
-        <!-- Amanda Project Content section utilizing tmeplate from other body sections as well as bootstrap flex, circle styling 
+        <!-- Amanda Project Content section utilizing template from other body sections as well as bootstrap flex, circle styling 
 		honestly I don't know why, but I assumed I couldn't use flex with BS and then I did and a whole world opened -->
-
-		<div class="d-flex p-3 justify-content-center bg-light">
-			<div class="p-2">
-				<h2>Tracking Space Cats</h2>
-				<p class="lead">After generations of speculation that cats were not "of earth", our team's groundbreaking technology enabled us to track cats back to their origins in the Judgement Galaxy. </p>
-				<p class="mb-0">Our expedition to what early astronmers called "The Great Lap in the Sky" uncovered definitive proof of early cat civilization. Fossilized bowls of rejected, perfectly adequate food, long strings, withered leaves from a foyer and several dead earth spiders were strewn about the surface of the planet "Drop It!". The sunniest cliffside location included well-defined imprints of relaxed feline bodies and intriguingly, the one carpeted section of "Drop It!" contained numerous fossilized expulsions. </p>
-			</div>
-			<div class="p-2">
-                <!-- img fluid makes an img responsive within bootstrap4 -->
-				<img src="Images/SpaceCatATcrop.png" class="img-fluid rounded-circle" alt="serious cat profile"> 
-			</div>
-		</div>
+        <div class= container-fluid>
+            <div class="d-flex justify-content-center bg-light">
+                <div class="p-2 my-text-col">
+                    <h2>Tracking Space Cats</h2>
+                    <p class="lead">After generations of speculation that cats were not "of earth", our team's groundbreaking technology enabled us to track cats back to their origins in the Judgement Galaxy. </p>
+                    <p class="mb-0">Our expedition to what early astronmers called "The Great Lap in the Sky" uncovered definitive proof of early cat civilization. Fossilized bowls of rejected, perfectly adequate food, long strings, withered leaves from a foyer and several dead earth spiders were strewn about the surface of the planet "Drop It!". The sunniest cliffside location included well-defined imprints of relaxed feline bodies and intriguingly, the one carpeted section of "Drop It!" contained numerous fossilized expulsions. </p>
+                </div>
+                <div class="p-2 my-img-col">
+                    <!-- img fluid makes an img responsive within bootstrap4, dnone an dsm block remove image on small screens -->
+                    <img src="Images/SpaceCatATcrop.png" class="img-fluid rounded-circle d-none d-sm-block" alt="serious cat profile"> 
+                </div>
+		    </div>
+        </div>
 	
 		<!-- End of Amanda Project Content -->
 		

@@ -169,7 +169,7 @@ iframe {
 /* Date: Nov 21 */
 /* From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
-
+/* styling the colors and hover of the nav bar- have to use bootstrap class syntax here */
 .navbar-nav {
   margin-left: auto;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
@@ -188,10 +188,19 @@ iframe {
   color: #35013d;
 }
 
+/* display homemade cat image and text side by side  */
 .p-2 {
-  width:35%;
-  margin: 3% 0;
+  width:45%;
+  margin: 5% 0;
 }
+
+/* media query to expand text on smaller screens */
+@media screen and (max-width: 650px) {
+  .my-text-col {
+    width: 100%;
+}
+
+
 
 /*Rachel's CSS for Meet the Team*/
 /*11/24*/
