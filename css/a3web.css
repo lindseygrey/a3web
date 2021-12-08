@@ -407,9 +407,9 @@ input[type=submit]:hover {
 }
 
 .kh {
-  /* padding: 2px; */
+  padding: 1px;
   text-align: center;
-  background-color: #e1dcf3;
+  background-color: #f3f0fc;
 }
 /* css for jokey Wookie error page*/
 .access{
