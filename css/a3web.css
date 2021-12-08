@@ -350,7 +350,7 @@ input[type=submit]:hover {
 }
 
 .txt{
-  size: 75%;
+  resize: 75%;
   color: black;
   justify-content: center;
 }
