@@ -220,10 +220,12 @@ iframe {
 
 .leadluna {
   font-family: 'Redacted Script';
+  font-size: 1.5rem
 }
 
 .leadmaria {
   font-family: 'Libre Barcode 39';
+  font-size: 1.5rem
 }
 
 /* End of Perry CSS */
