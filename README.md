@@ -34,13 +34,33 @@ All these components will appear in all individual pages:
 #### Final submission - Due **8 Dec** (try to finish by the weekend of week 13)
 - [x] Group meeting Sunday afternoon, Nov 21
 - [ ] Index
+    [ ] Error Free
+    [ ] Responsive
 - [x] Meet The Team
+    [ ] Error Free
+    [ ] Responsive
 - [x] Resources
-- [x] Contact Us - 
+    [ ] Error Free
+    [ ] Responsive
+- [x] Contact Us
+    [ ] Error Free
+    [ ] Responsive
 - [ ] Amanda's individual mock GIS project as example
+    [ ] Error Free
+    [ ] Responsive
 - [ ] Igraine's individual mock GIS project as example
+    [ ] Error Free
+    [ ] Responsive
 - [ ] Lindsey's individual mock GIS project as example
+    [ ] Error Free
+    [ ] Responsive
 - [x] Perry's individual mock GIS project as example
+    [ ] Error Free
+    [ ] Responsive
 - [ ] Rachel's individual mock GIS project as example
+    [ ] Error Free
+    [ ] Responsive
+- [ ] Check for CSS errors
 - [ ] All group members: Check responsiveness before final submission
 - [ ] All group members: Error checking before final submission
+
