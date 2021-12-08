@@ -115,7 +115,7 @@ details > p {
 
 /* End of Lindsey Section */
 
-/* Perry CSS */
+/* Perry CSS Start */
 .bg-image-full{
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -226,7 +226,7 @@ iframe {
 
 /* End of Perry CSS */
 
-/* Amanda CSS */
+/* Amanda CSS  Start*/
 /* Date: Nov 21 */
 /* From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
 
@@ -269,7 +269,7 @@ iframe {
 /*Rachel's CSS for Meet the Team*/
 /*11/24*/
 /*Adaped from w3schools: https://www.w3schools.com/howto/howto_css_team.asp */
- /* Three columns side by side */
+/* Three columns side by side */
  .column {
   float: left;
   width: 33.3%;
@@ -323,9 +323,10 @@ iframe {
 } 
 /*End TEAM css*/
 
+/* Rachel added content and updated content and style for Contact us form*/
 /*Added 11/24. */
 /* Updated 12/4 */
-/* Rachel added content and updated content and style for Contact us form*/
+
 /*CSS for Contact form adapted from w3schools:  https://www.w3schools.com/howto/howto_css_contact_form.asp  */
  /* Style inputs with type="text", select elements and textareas */
  input[type=text], select, textarea {
@@ -356,7 +357,7 @@ input[type=submit]:hover {
 }
 
 /* Add a background color and some padding around the form */
-/* edited by raine - originally .container, was overiding the .container in style.css affecting all components */
+/* Edited by Raine - clas conflict with bootstrap */
 .cont {
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -364,7 +365,9 @@ input[type=submit]:hover {
 } 
 /*End Rachel's CSS */
 
-/* raine css */
+/* Raine CSS Start */
+/*last updated 12/07 */
+
 /* "landing card" to draw the eye add to presentation */
 .parent {
   text-align: center;
@@ -382,17 +385,19 @@ input[type=submit]:hover {
   padding: 50px;
   vertical-align: middle;
 }
-
+/* colour for embedded links, to match general theme - show there is a link */
 .linkcol {
   color: #8e53b5;
 }
 
+/* resizing hearder in project page*/
 .txt{
   resize: 75%;
   color: black;
   justify-content: center;
 }
 
+/* kashyyyk planet image location formatting*/
 .planet{
   margin: 3%;
   max-width : 100%;
@@ -400,11 +405,13 @@ input[type=submit]:hover {
   height: auto;
   justify-content: center
 }
+
 .kh {
   padding: 2px;
   text-align: center;
   background-color: #d3c7fc;
 }
+/* css for jokey Wookie error page*/
 .access{
   color: black;
   text-align: center;
@@ -416,4 +423,4 @@ input[type=submit]:hover {
   margin-right: auto;
   width: 50%;
 }
-/* end raine css */
+/* End raine css */
