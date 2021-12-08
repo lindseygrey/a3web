@@ -33,7 +33,7 @@ All these components will appear in all individual pages:
 
 #### Final submission - Due **8 Dec** (try to finish by the weekend of week 13)
 - [x] Group meeting Sunday afternoon, Nov 21
-- [ ] Index
+- [x] Index
     - [X] Error Free
     - [X] Responsive
 - [x] Meet The Team
