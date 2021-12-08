@@ -15,9 +15,6 @@
   font-size:20px;
 }
 
-.FAQ {
-  margin:2%
-}
 .col {
   column-count: 3;
   padding-top: 20px;
@@ -51,16 +48,7 @@ ul {
 .footerlink:hover {
   color: grey
 }
-a.secret {
-  color: #343a40 
-}
-.secret:link{
-  color: #343a40 
-}
-.secret:hover{
 
-  color: #343a40 
-}
 
 /* Personal Project Page CSS */
 .tribble {
@@ -115,6 +103,15 @@ details > p {
   margin: 2%;
   width: auto
 }
+
+.FAQ {
+  margin:2%
+}
+
+.secret:link{
+  color: #343a40 
+}
+
 /* End of Lindsey Section */
 
 /* Perry CSS */
