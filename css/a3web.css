@@ -428,6 +428,7 @@ input[type=submit]:hover {
 Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 * {
   box-sizing: border-box;
+  padding:20px;
 }
 
 .columns {
