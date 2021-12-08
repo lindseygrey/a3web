@@ -378,6 +378,7 @@ input[type=submit]:hover {
 /* create the two sections */
 .child {
   display: inline-block;
+  font-size: 25px;
   text-align: center;
   width: auto;
   height: auto;
