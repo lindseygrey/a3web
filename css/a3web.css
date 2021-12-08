@@ -338,8 +338,8 @@ input[type=submit]:hover {
 .child {
   display: inline-block;
   text-align: center;
-  width: 700px;
-  height: 250px;
+  width: auto;
+  height: auto;
   margin: 10px 10px 10px 10px;
   padding: 50px;
   vertical-align: middle;
@@ -364,9 +364,18 @@ input[type=submit]:hover {
 }
 .kh {
   padding: 2px;
+  text-align: center;
   background-color: #d3c7fc;
 }
 .access{
   color: black;
+  text-align: center;
   justify-content: center;
+}
+.tarff{
+  margin: 3%;
+  max-width : 100%;
+  border-radius: 20px;
+  height: auto;
+  justify-content: center 
 }
