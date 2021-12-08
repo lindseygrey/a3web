@@ -423,4 +423,62 @@ input[type=submit]:hover {
   margin-right: auto;
   width: 50%;
 }
+
+/*Price Bar CSS
+Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  list-style-type: none;
+  border: 1px solid #f3f0fc;
+  margin: 0;
+  padding: 0;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #343a40;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  border-bottom: 1px solid #f3f0fc;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #f3f0fc;
+  font-size: 20px;
+}
+
+.button {
+  background-color: #885ced;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+/*end price bar CSS*/
 /* End raine css */
