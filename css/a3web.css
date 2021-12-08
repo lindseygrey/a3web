@@ -70,7 +70,8 @@ a.secret {
 }
 .map {
   margin: 2%;
-  width : 100%
+  width : 100%;
+  border-radius: 8px;
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
