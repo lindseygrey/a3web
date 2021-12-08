@@ -65,21 +65,26 @@
         </nav>
         <!-- end of Amanda's dropdown navbar code -->
 
-        <!-- Amanda Project Content section utilizing template from other body sections as well as bootstrap flex, circle styling 
-		honestly I don't know why, but I assumed I couldn't use flex with BS and then I did and a whole world opened -->
-        <div class= container-fluid>
-            <div class="d-flex justify-content-center bg-light">
-                <div class="p-2 my-text-col">
-                    <h2>Tracking Space Cats</h2>
-                    <p class="lead">After generations of speculation that cats were not "of earth", our team's groundbreaking technology enabled us to track cats back to their origins in the Judgement Galaxy. </p>
-                    <p class="mb-0">Our expedition to what early astronmers called "The Great Lap in the Sky" uncovered definitive proof of early cat civilization. Fossilized bowls of rejected, perfectly adequate food, long strings, withered leaves from a foyer and several dead earth spiders were strewn about the surface of the planet "Drop It!". The sunniest cliffside location included well-defined imprints of relaxed feline bodies and intriguingly, the one carpeted section of "Drop It!" contained numerous fossilized expulsions. </p>
-                </div>
-                <div class="p-2 my-img-col">
-                    <!-- img fluid makes an img responsive within bootstrap4, dnone an dsm block remove image on small screens -->
-                    <img src="Images/SpaceCatATcrop.png" class="img-fluid rounded-circle d-none d-sm-block" alt="serious cat profile"> 
-                </div>
-		    </div>
-        </div>
+        <!-- Start of Amanda Page Code- I think by far my biggest hurdle was getting a handle on bootstrap - things i knew how to do in straight CSS often
+        did not work in Bootstrap so it was quite a curve, I can see how it would be faster in the long run, but as a newb it was a trip to get used to bootstrap's
+        fairly rigid rules around class naming and syntax- it was also a curve to get used to the way it often wants classes that run the styling in the html aka
+        where I learned not to put it in straight CSS. My initial stacking didn't work - but my img was resposive- thanks to lindsay and raine for getting that sorted!-->
+        <section class="py-5">
+            <div class="container">
+                <!-- bootstrap really really wants you to use row and col for its grid work that incorporates flex -->
+                <div class="row">
+                    <div class = "col-sm-5">
+                        <h2 class= "text-center"> Space Cat Tracking </h2>
+                        <p class="spacefeline lead text-center font-italic">After generations of speculation that cats were not "of earth", our team's groundbreaking technology enabled us to track cats back to their origins in the Judgement Galaxy.</p> 
+                        <p class="mb-0">Our expedition to what early astronmers called "The Great Lap in the Sky" uncovered definitive proof of early cat civilization. Fossilized bowls of rejected, perfectly adequate food, long strings, withered leaves from a foyer and several dead earth spiders were strewn about the surface of the planet "Drop It!". The sunniest cliffside location included well-defined imprints of relaxed feline bodies and intriguingly, the one carpeted section of "Drop It!" contained numerous fossilized expulsions. </p>
+                    </div>
+                    <div class = "col-sm-5 mx-auto">
+                        <img src="Images/SpaceCatATcrop.png" class = "rounded-circle img-fluid" alt="serious cat profile" > 
+                        <p class="cattrack caption font-italic text-center">With endless "waste surface", sanitation is <a class = "sanitation" href= https://litterlocker.com/en>key</a> in dusty habitats! Our accurately mapped facilities help keep your planet pristine. </p> <!-- using Lindseys caption class-->
+                    </div>
+                </div>    
+            </div>
+        </section>
 	
 		<!-- End of Amanda Project Content -->
 		
