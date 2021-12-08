@@ -348,7 +348,6 @@ input[type=submit]:hover {
   height: auto;
   justify-content: center
 }
-
-.para{
-  float: right;
+.kh {
+  background-color: darkgrey;
 }
