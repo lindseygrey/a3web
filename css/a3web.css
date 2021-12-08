@@ -89,10 +89,13 @@ a.secret {
   justify-content: center
 }
 
-.caption
-{ text-align: center;
-  
+.caption { 
+text-align: center;
+}
 
+/* minor adjustment to the index page text */
+.service {
+  margin-bottom: 2rem!important;
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
@@ -373,10 +376,12 @@ input[type=submit]:hover {
 .parent {
   text-align: center;
   padding-top: 40px;
+  padding-bottom: 40px;
 }
 /* create the two sections */
 .child {
   display: inline-block;
+  font-size: 25px;
   text-align: center;
   width: auto;
   height: auto;
