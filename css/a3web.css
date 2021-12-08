@@ -348,6 +348,7 @@ input[type=submit]:hover {
 }
 
 .txt{
+  color: black;
   justify-content: center;
 }
 
@@ -359,5 +360,6 @@ input[type=submit]:hover {
   justify-content: center
 }
 .kh {
+  padding: 5px;
   background-color: darkgrey;
 }
