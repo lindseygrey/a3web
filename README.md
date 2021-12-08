@@ -37,29 +37,29 @@ All these components will appear in all individual pages:
     - [ ] Error Free
     - [ ] Responsive
 - [x] Meet The Team
-    - [ ] Error Free
-    - [ ] Responsive
+    - [x] Error Free
+    - [x] Responsive
 - [x] Resources
     - [x] Error Free
     - [x] Responsive
 - [x] Contact Us
-    - [ ] Error Free
-    - [ ] Responsive
+    - [x] Error Free
+    - [x] Responsive
 - [ ] Amanda's individual mock GIS project as example
-    - [ ] Error Free
-    - [ ] Responsive
+    - [x] Error Free
+    - [x] Responsive
 - [ ] Igraine's individual mock GIS project as example
-    - [ ] Error Free
-    - [ ] Responsive
-- [ ] Lindsey's individual mock GIS project as example
-    - [ ] Error Free
-    - [ ] Responsive
+    - [x] Error Free
+    - [x] Responsive
+- [x] Lindsey's individual mock GIS project as example
+    - [x] Error Free
+    - [x] Responsive
 - [x] Perry's individual mock GIS project as example
     - [x] Error Free
     - [x] Responsive
 - [ ] Rachel's individual mock GIS project as example
-    - [ ] Error Free
-    - [ ] Responsive
+    - [x] Error Free
+    - [x] Responsive
 - [ ] Check for CSS errors
 - [ ] All group members: Check responsiveness before final submission
 - [ ] All group members: Error checking before final submission
