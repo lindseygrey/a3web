@@ -332,6 +332,18 @@ input[type=submit]:hover {
 }
 
 .back {
+  position: relative;
   background-position: center;
-  background-attachment: fixed
+  background-attachment: fixed;
 } 
+
+.text-block {
+  position: absolute;
+  bottom: 100px;
+  right: 300px;
+  background-color:whitesmoke;
+  color: black;
+  padding-left: 20px;
+  padding-right: 20px;
+  opacity: 0.5;
+}
