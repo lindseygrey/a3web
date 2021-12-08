@@ -95,7 +95,7 @@ text-align: center;
 
 /* minor adjustment to the index page text */
 .service {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem!important;
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
