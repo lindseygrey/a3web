@@ -40,8 +40,8 @@ All these components will appear in all individual pages:
     - [ ] Error Free
     - [ ] Responsive
 - [x] Resources
-    - [ ] Error Free
-    - [ ] Responsive
+    - [x] Error Free
+    - [x] Responsive
 - [x] Contact Us
     - [ ] Error Free
     - [ ] Responsive
@@ -55,8 +55,8 @@ All these components will appear in all individual pages:
     - [ ] Error Free
     - [ ] Responsive
 - [x] Perry's individual mock GIS project as example
-    - [ ] Error Free
-    - [ ] Responsive
+    - [x] Error Free
+    - [x] Responsive
 - [ ] Rachel's individual mock GIS project as example
     - [ ] Error Free
     - [ ] Responsive
