@@ -66,13 +66,15 @@ a.secret {
 
 /* Personal Project Page CSS */
 .tribble {
-  margin : 2%
+  margin : 2%;
+  justify-content: center
 }
 .map {
   margin: 2%;
   max-width : 100%;
   border-radius: 8px;
-  height: auto
+  height: auto;
+  justify-content: center
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
