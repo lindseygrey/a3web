@@ -5,8 +5,6 @@ When you add an image, add file name and source to this document
 
 ## Sources
 
-- John Mulaney Quote.png  - Lindsey Greidanus 
-- Suns Out Guns out Bo .png - Lindsey Greidanus
 - Android-chrome-512x512.png - 
     -This favicon was generated using the following graphics from Twitter Twemoji:
     - Graphics Title: 1f47d.svg
@@ -23,3 +21,6 @@ https://www.teahub.io/viewwp/mJoJhi_pink-space-desktop-backgrounds/
 https://twitter.com/thehausnews/status/1266801213607227392 
 https://gagadaily.com/forums/topic/352835-chromatica-game-ideas/ 
 https://www.scirp.org/journal/paperinformation.aspx?paperid=82271
+
+- Alien Map from here: 
+    -https://dabrownstein.com/tag/invasive-species/
