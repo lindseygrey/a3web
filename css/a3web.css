@@ -338,8 +338,8 @@ input[type=submit]:hover {
 .child {
   display: inline-block;
   text-align: center;
-  width: 700px;
-  height: 250px;
+  width: auto;
+  height: auto;
   margin: 10px 10px 10px 10px;
   padding: 50px;
   vertical-align: middle;
