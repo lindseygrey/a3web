@@ -363,11 +363,10 @@ input[type=submit]:hover {
   justify-content: center
 }
 .kh {
-  padding: 3px;
-  background-color: darkgrey;
+  padding: 2px;
+  background-color: #d3c7fc;
 }
 .access{
   color: black;
-  font-weight: 25px;
-  text-align: center;
+  justify-content: center;
 }
