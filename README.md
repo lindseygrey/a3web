@@ -34,8 +34,8 @@ All these components will appear in all individual pages:
 #### Final submission - Due **8 Dec** (try to finish by the weekend of week 13)
 - [x] Group meeting Sunday afternoon, Nov 21
 - [ ] Index
-    - [ ] Error Free
-    - [ ] Responsive
+    - [X] Error Free
+    - [X] Responsive
 - [x] Meet The Team
     - [x] Error Free
     - [x] Responsive
@@ -45,10 +45,10 @@ All these components will appear in all individual pages:
 - [x] Contact Us
     - [x] Error Free
     - [x] Responsive
-- [ ] Amanda's individual mock GIS project as example
+- [X] Amanda's individual mock GIS project as example
     - [x] Error Free
     - [x] Responsive
-- [ ] Igraine's individual mock GIS project as example
+- [X] Igraine's individual mock GIS project as example
     - [x] Error Free
     - [x] Responsive
 - [x] Lindsey's individual mock GIS project as example
@@ -57,10 +57,11 @@ All these components will appear in all individual pages:
 - [x] Perry's individual mock GIS project as example
     - [x] Error Free
     - [x] Responsive
-- [ ] Rachel's individual mock GIS project as example
+- [X] Rachel's individual mock GIS project as example
     - [x] Error Free
     - [x] Responsive
 - [ ] Check for CSS errors
 - [ ] All group members: Check responsiveness before final submission
 - [ ] All group members: Error checking before final submission
+- [ ] All group members (except lindsey): Upload the repository on your own account! 
 
