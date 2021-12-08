@@ -325,6 +325,7 @@ input[type=submit]:hover {
   margin: 10px 10px 10px 10px;
   padding: 50px;
   vertical-align: middle;
+  position: fixed;
 }
 
 .FAQ {
@@ -348,7 +349,7 @@ input[type=submit]:hover {
   opacity: 0.5;
 }
 
-@media (min-width: 576px) {
+/* @media (min-width: 576px) {
   .parent {
     max-width: 540px;
   }
@@ -377,4 +378,4 @@ input[type=submit]:hover {
   .parent {
     max-width: 1320px;
   }
-}
+} */
