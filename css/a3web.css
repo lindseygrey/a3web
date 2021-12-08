@@ -89,10 +89,13 @@ a.secret {
   justify-content: center
 }
 
-.caption
-{ text-align: center;
-  
+.caption { 
+text-align: center;
+}
 
+/* minor adjustment to the index page text */
+.service {
+  margin-bottom: 2rem;
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
