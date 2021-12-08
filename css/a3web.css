@@ -336,3 +336,15 @@ input[type=submit]:hover {
 .FAQ {
   color: #35013d;
 }
+
+.txt{
+  justify-content: center;
+}
+
+.planet{
+  margin: 3%;
+  max-width : 100%;
+  border-radius: 10px;
+  height: auto;
+  justify-content: center
+}
