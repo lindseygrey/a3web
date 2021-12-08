@@ -426,11 +426,11 @@ input[type=submit]:hover {
 
 /*Price Bar CSS
 Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
-* {
+/* * {
   box-sizing: border-box;
   padding-top:20px;
   padding-bottom: 20px;
-}
+} */
 
 .columns {
   float: left;
