@@ -25,17 +25,22 @@
 All these components will appear in all individual pages:
 *template from https://startbootstrap.com/template/full-width-pics*
 - [x] < head > and < footer > : Lindsey
-- [ ] JavaScript alert box : Lindsey
-- [ ] Navbar: Amanda
-- [ ] Header image: Perry
-- [ ] < body >: Rachel
-- [ ] landing card in body + css/js edit + putting together all other components to make 1 template file for submission: Raine
+- [x] JavaScript alert box : Lindsey
+- [x] Navbar: Amanda
+- [x] Header image: Perry
+- [x] < body >: Rachel
+- [x] landing card in body + css/js edit + putting together all other components to make 1 template file for submission: Raine
 
 #### Final submission - Due **8 Dec** (try to finish by the weekend of week 13)
-- [ ] All group members: Index, Meet The Team, Resources, Contact Us - Group meeting Sunday afternoon, Nov 21
+- [x] Group meeting Sunday afternoon, Nov 21
+- [ ] Index
+- [x] Meet The Team
+- [x] Resources
+- [x] Contact Us - 
 - [ ] Amanda's individual mock GIS project as example
 - [ ] Igraine's individual mock GIS project as example
 - [ ] Lindsey's individual mock GIS project as example
 - [x] Perry's individual mock GIS project as example
 - [ ] Rachel's individual mock GIS project as example
+- [ ] All group members: Check responsiveness before final submission
 - [ ] All group members: Error checking before final submission
