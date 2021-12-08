@@ -331,10 +331,10 @@ input[type=submit]:hover {
   color: #35013d;
 }
 
-.back {
+.kashback {
   position: relative;
   background-position: center;
-  background-attachment: fixed;
+  /* background-attachment: fixed; */
 } 
 
 .text-block {
