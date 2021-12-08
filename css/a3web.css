@@ -95,7 +95,7 @@ text-align: center;
 
 /* minor adjustment to the index page text */
 .service {
-  margin-bottom: 2rem;
+  margin-bottom: 2rem!important;
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
@@ -256,18 +256,21 @@ iframe {
   color: #35013d;
 }
 
-/* display homemade cat image and text side by side  */
-.p-2 {
-  width:45%;
-  margin: 5% 0;
+/* targeting what bootstrap wouldn't attempt to decide on my behalf AT */
+.spacefeline {
+  color: #7f0492;
+  font-weight: 400;
+}
+.cattrack {
+  color: #28022e;
+  margin-top: 3%;
 }
 
-/* media query to expand text on smaller screens */
-@media screen and (max-width: 650px) {
-  .my-text-col {
-    width: 100%;
-} }
-
+/* link styling */
+.sanitation {
+  color: #f719bf;
+  font-weight: 500;
+}
 
 
 /*Rachel's CSS for Meet the Team*/
