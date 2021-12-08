@@ -364,10 +364,11 @@ input[type=submit]:hover {
 }
 .kh {
   padding: 3px;
-  background-color: darkgrey;
+  background-color: #d3c7fc;
 }
 .access{
   color: black;
   font-weight: 25px;
   text-align: center;
+  justify-content: center;
 }
