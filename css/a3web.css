@@ -73,7 +73,7 @@ a.secret {
 .h2tribble {
   text-align:center;
   width: 100%;
-  margin: 2%
+  margin: 2%;
 }
 
 .h4tribble {
@@ -365,4 +365,9 @@ input[type=submit]:hover {
 .kh {
   padding: 3px;
   background-color: darkgrey;
+}
+.access{
+  color: black;
+  font-weight: 25px;
+  text-align: center;
 }
