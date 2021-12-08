@@ -368,7 +368,5 @@ input[type=submit]:hover {
 }
 .access{
   color: black;
-  font-weight: 25px;
-  text-align: center;
   justify-content: center;
 }
