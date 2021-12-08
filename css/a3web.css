@@ -51,6 +51,7 @@ ul {
 
 
 /* Personal Project Page CSS */
+
 .tribble {
   margin : 2%;
   justify-content: center
@@ -67,18 +68,18 @@ ul {
   width: 100%
 }
 
-.map {
+.map {    /*Image css */
   margin: 2%;
   max-width : 100%;
 }
 
-.caption { 
+.caption {  
 text-align: center;
 }
 
 /* minor adjustment to the index page text */
 .service {
-  margin-bottom: 2rem!important;
+  margin-bottom: 2rem!important; /*fighting bootstrap for control*/
 }
 
 /* Resources Page Section CSS Added Dec 4th*/
