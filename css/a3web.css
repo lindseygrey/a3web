@@ -1,425 +1,205 @@
-/* CSS page */
-/* Please place your name Before and After your code */
-
-/***************** 
-* Owner : Lindsey
-* Date  : November 14
-* From  : https://www.w3schools.com/css/css_link.asp
-******************/
-
-.h3footer {      /* some styles from here https://www.web-eau.net/blog/10-best-footer-html-css-snippets */ 
-  Color: gray;
-  margin-top:auto;
-  margin-bottom:auto;
-  margin-left: 15%;
-  font-weight:bold;
-  font-size:20px;
-  text-align: left
+.h3footer {
+    color: gray;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 15%;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: left;
 }
-
 .FAQ {
-  margin:2%
+    margin: 2%;
 }
 .col {
-  column-count: 3;
-  padding-top: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  column-rule-width: 5px;
-  column-rule-style: solid;
-  column-rule-color: grey;
-  column-gap: 350px;
+    column-count: 3;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    column-rule-width: 5px;
+    column-rule-style: solid;
+    column-rule-color: grey;
+    column-gap: 350px;
 }
-
-li{
-  text-align:left
+li {
+    text-align: left;
 }
-
 ul {
-  list-style-type: none;
+    list-style-type: none;
 }
 .social {
-  padding-top: 5px;
-  padding-right: 5px;
-  padding-bottom: 5px;
-  padding-left: 5px;
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 5px;
 }
-.footerlink{
-  color: whitesmoke;
-  text-decoration: none;
-  }
-
+.footerlink {
+    color: #f5f5f5;
+    text-decoration: none;
+}
 .footerlink:hover {
-  color: grey
+    color: grey;
 }
-a.secret {
-  color: #343a40 
-}
-.secret:link{
-  color: #343a40 
-}
-.secret:hover{
-
-  color: #343a40 
-}
-
-/* Personal Project Page CSS */
 .tribble {
-  margin : 2%;
-  justify-content: center
+    margin: 2%;
+    justify-content: center;
 }
-
 .h2tribble {
-  text-align:center;
-  width: 100%;
-  margin: 2%;
+    text-align: center;
+    width: 100%;
+    margin: 2%;
 }
-
 .h4tribble {
-  text-align:center;
-  width: 100%
+    text-align: center;
+    width: 100%;
 }
-
 .map {
-  margin: 2%;
-  max-width : 100%;
-  border-radius: 8px;
-  height: auto;
-  justify-content: center
+    margin: 2%;
+    max-width: 100%;
+    border-radius: 8px;
+    height: auto;
+    justify-content: center;
 }
-
-.caption { 
-text-align: center;
-}
-
-/* minor adjustment to the index page text */
 .service {
-  margin-bottom: 2rem!important;
+    margin-bottom: 2rem !important;
 }
-
-/* Resources Page Section CSS Added Dec 4th*/
-details > summary {          /*https://www.w3schools.com/tags/tag_details.asp*/   
-  padding: 4px;  
-  background-color: #d3c7fc; 
-  border: none;
-  box-shadow: 1px 1px 2px #bbbbbb;
-  cursor: pointer;
-  font-size:1.25rem;   /* Keeping the the same bootstrap paragrpah class 'lead' */
-  font-weight:300 ;
-  color: #343a40 ;
-  margin: 2%;
-  width: auto
+.bg-image-full {
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center;
+    background-size: 100%;
 }
-details > p {
-  background-color: whitesmoke; 
-  padding: 4px;
-  margin: 0;
-  box-shadow: 3px 3px 3px #bbbbbb;
-  color: #343a40;
-  margin: 2%;
-  width: auto
-}
-/* End of Lindsey Section */
-
-/* Perry CSS */
-.bg-image-full{
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: 100%;
-} 
-
-iframe {
-  width: 100%;
-  height: 85px;
-}
-
 @font-face {
-  font-family: 'Orbitron';
-  font-style: normal;
-  font-weight: 600;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyxSmBoWgz.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: Orbitron;
+    font-style: normal;
+    font-weight: 600;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/orbitron/v19/yMJMMIlzdpvBhQQL_SC3X9yhF25-T1nyxSmBoWgz.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
-  font-family: 'Nosifer';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nosifer/v11/ZGjXol5JTp0g5bxZWCRbVQNd.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-family: Nosifer;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/nosifer/v11/ZGjXol5JTp0g5bxZWCRbVQNd.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 @font-face {
-  font-family: 'Nosifer';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/nosifer/v11/ZGjXol5JTp0g5bxZWCpbVQ.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: Nosifer;
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/nosifer/v11/ZGjXol5JTp0g5bxZWCpbVQ.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
-  font-family: 'Redacted Script';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/redactedscript/v1/ypvBbXGRglhokR7dcC3d1-R6zmxiuG7woZk.woff2) format('woff2');
-  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    font-family: "Redacted Script";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/redactedscript/v1/ypvBbXGRglhokR7dcC3d1-R6zmxiuG7woZk.woff2) format("woff2");
+    unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
 }
-
 @font-face {
-  font-family: 'Redacted Script';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/redactedscript/v1/ypvBbXGRglhokR7dcC3d1-R6zmxitm7w.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: "Redacted Script";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/redactedscript/v1/ypvBbXGRglhokR7dcC3d1-R6zmxitm7w.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 @font-face {
-  font-family: 'Libre Barcode 39';
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  src: url(https://fonts.gstatic.com/s/librebarcode39/v14/-nFnOHM08vwC6h8Li1eQnP_AHzI2G_Bx0g.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    font-family: "Libre Barcode 39";
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/librebarcode39/v14/-nFnOHM08vwC6h8Li1eQnP_AHzI2G_Bx0g.woff2) format("woff2");
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
-
 .headerlogo {
-  font-family: 'Orbitron', sans-serif;
-  --bs-text-opacity: 1;
-  color: whitesmoke;
-  font-size: 7rem;
-  -webkit-text-stroke: 1px black;
-  margin-bottom: 0rem;
+    font-family: Orbitron, sans-serif;
+    --bs-text-opacity: 1;
+    color: #f5f5f5;
+    font-size: 7rem;
+    -webkit-text-stroke: 1px #000;
+    margin-bottom: 0;
 }
-
 .headerlogotext {
-  font-family: 'Orbitron', sans-serif;
-  --bs-text-opacity: 1;
-  color: rgb(255, 255, 255);
-  margin-bottom: 0 !important;
-  -webkit-text-stroke: 1px black;
-  font-size: 2rem;
+    font-family: Orbitron, sans-serif;
+    --bs-text-opacity: 1;
+    color: #fff;
+    margin-bottom: 0 !important;
+    -webkit-text-stroke: 1px #000;
+    font-size: 2rem;
 }
-
 .my-5h {
-  margin-top: 0.5rem !important;
-  margin-bottom: 0.5rem !important;
+    margin-top: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
 }
-
 .py-5h {
-  padding-top: 0.5rem !important;
-  padding-bottom: 0.5rem !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 0.5rem !important;
 }
-
 .leadjabba {
-  font-family: 'Nosifer';
+    font-family: Nosifer;
 }
-
 .leadluna {
-  font-family: 'Redacted Script';
-  font-size: 1.5rem
+    font-family: "Redacted Script";
+    font-size: 1.5rem;
 }
-
 .leadmaria {
-  font-family: 'Libre Barcode 39';
-  font-size: 1.5rem
+    font-family: "Libre Barcode 39";
+    font-size: 1.5rem;
 }
-
-/* End of Perry CSS */
-
-/* Amanda CSS */
-/* Date: Nov 21 */
-/* From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
-
-/* styling the colors and hover of the nav bar- have to use bootstrap class syntax here */
 .navbar-nav {
-  margin-left: auto;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
-  }
-
- 
+    margin-left: auto;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
 .navbar-dark .navbar-nav .nav-link {
     color: #d3c7fc;
 }
-
 .navbar-dark .navbar-nav .nav-link:hover {
-  color: #fc61ef;
+    color: #fc61ef;
 }
-
 .navbar-dark .navbar-nav .dropdown-item {
-  color: #35013d;
+    color: #35013d;
 }
-
-/* targeting what bootstrap wouldn't attempt to decide on my behalf AT */
-.spacefeline {
-  color: #7f0492;
-  font-weight: 400;
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
 }
-.cattrack {
-  color: #28022e;
-  margin-top: 3%;
-}
-
-/* link styling */
-.sanitation {
-  color: #f719bf;
-  font-weight: 500;
-}
-
-
-/*Rachel's CSS for Meet the Team*/
-/*11/24*/
-/*Adaped from w3schools: https://www.w3schools.com/howto/howto_css_team.asp */
- /* Three columns side by side */
- .column {
-  float: left;
-  width: 33.3%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
-  }
-}
-
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-}
-
-/* Some left and right padding inside the container */
-.contactcontainer {
-  padding: 0 16px;
-}
-
-/* Clear floats */
-.contactcontainer::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
 .title {
-  color: grey;
+    color: grey;
 }
-
-.button {
-  border: none;
-  outline: 0;
-  display: inline-block;
-  padding: 8px;
-  color: white;
-  background-color: #000;
-  text-align: center;
-  cursor: pointer;
-  width: 100%;
-}
-
-.button:hover {
-  background-color: #555;
-} 
-/*End TEAM css*/
-
-/*Added 11/24. */
-/* Updated 12/4 */
-/* Rachel added content and updated content and style for Contact us form*/
-/*CSS for Contact form adapted from w3schools:  https://www.w3schools.com/howto/howto_css_contact_form.asp  */
- /* Style inputs with type="text", select elements and textareas */
- input[type=text], select, textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */ 
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
-}
-
-/* Style the submit button with a specific background color etc */
-/* Updated 12/4 to coordinate and match colours with nav bar - Rachel  */
-input[type=submit] {
-  background-color: #d3c7fc;
-  color: black;
-  padding: 12px 20px;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a magenta colour to match nav bar */
-input[type=submit]:hover {
-  background-color: #fc61ef;
-}
-
-/* Add a background color and some padding around the form */
-/* edited by raine - originally .container, was overiding the .container in style.css affecting all components */
 .cont {
-  border-radius: 5px;
-  background-color: #f2f2f2;
-  padding: 20px;
-} 
-/*End Rachel's CSS */
-
-/* raine css */
-/* "landing card" to draw the eye add to presentation */
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
 .parent {
-  text-align: center;
-  padding-top: 40px;
-  padding-bottom: 40px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
 }
-/* create the two sections */
 .child {
-  display: inline-block;
-  font-size: 25px;
-  text-align: center;
-  width: auto;
-  height: auto;
-  margin: 10px 10px 10px 10px;
-  padding: 50px;
-  vertical-align: middle;
+    display: inline-block;
+    font-size: 25px;
+    text-align: center;
+    width: auto;
+    height: auto;
+    margin: 10px 10px 10px 10px;
+    padding: 50px;
+    vertical-align: middle;
 }
-
 .linkcol {
-  color: #35013d;
+    color: #35013d;
 }
-
-.txt{
-  resize: 75%;
-  color: black;
-  justify-content: center;
-}
-
-.planet{
-  margin: 3%;
-  max-width : 100%;
-  border-radius: 10px;
-  height: auto;
-  justify-content: center
-}
-.kh {
-  padding: 2px;
-  text-align: center;
-  background-color: #d3c7fc;
-}
-.access{
-  color: black;
-  text-align: center;
-
-}
-.tarff{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.planet {
+    margin: 3%;
+    max-width: 100%;
+    border-radius: 10px;
+    height: auto;
+    justify-content: center;
 }
