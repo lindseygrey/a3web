@@ -386,8 +386,15 @@ input[type=submit]:hover {
   vertical-align: middle;
 }
 /* colour for embedded links, to match general theme - show there is a link */
-.linkcol {
+a:link {
   color: #8e53b5;
+}
+a:visited {
+color: #8e53b5;
+}
+
+a:hover{
+  color:rgb(45, 4, 75);
 }
 
 /* resizing hearder in project page*/
