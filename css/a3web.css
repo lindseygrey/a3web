@@ -430,6 +430,9 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   box-sizing: border-box;
 }
 
+.marg{
+  margin-bottom: 100px;
+}
 .columns {
   float: left;
   width: 33.3%;
