@@ -431,15 +431,17 @@ a:hover{
   width: 50%;
 }
 
+
+.marg{
+  margin-bottom: 300px;
+}
+
 /*Price Bar CSS
 Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 * {
   box-sizing: border-box;
 }
 
-.marg{
-  margin-bottom: 200px;
-}
 .columns {
   float: left;
   width: 33.3%;
