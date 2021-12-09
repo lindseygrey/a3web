@@ -24,7 +24,11 @@ https://wallpapersafari.com/hi-res-space-wallpaper/
 - Alien Map from here: 
     - https://dabrownstein.com/tag/invasive-species/
 
-
+- Remote Sensing on Tatooine from here:
+    -https://starwars.fandom.com/wiki/Tatooine
+     https://www.semanticscholar.org/paper/Remote-Sensing-Techniques-in-Archaeology.-From-to-Patruno-Dore/fd253cc7011be513ac600231b89c9e7afd051c84
+     https://www.deccanherald.com/international/world-news-politics/slave-room-discovered-at-pompeii-in-rare-find-1047866.html
+     https://pbs.twimg.com/media/EZSU-RtWsAEyI7x?format=jpg&name=large
 
 - Image sources for testimonials - images resized/edited by Perry
     - https://everydaypower.com/wp-content/uploads/2021/01/25-Jabba-the-Hutt-Quotes-from-the-Star-Wars-Villian-1000x600.jpg
