@@ -442,7 +442,9 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   list-style-type: none;
   border: 1px solid #f3f0fc;
   margin: 0;
-  padding: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-transition: 0.3s;
   transition: 0.3s;
 }
 
