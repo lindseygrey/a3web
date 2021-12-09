@@ -60,8 +60,8 @@ All these components will appear in all individual pages:
 - [X] Rachel's individual mock GIS project as example
     - [x] Error Free
     - [x] Responsive
-- [ ] Check for CSS errors
-- [ ] All group members: Check responsiveness before final submission
-- [ ] All group members: Error checking before final submission
-- [ ] All group members (except lindsey): Upload the repository on your own account! 
+- [x] Check for CSS errors
+- [x] All group members: Check responsiveness before final submission
+- [x] All group members: Error checking before final submission
+- [x] All group members (except lindsey): Upload the repository on your own account! 
 
