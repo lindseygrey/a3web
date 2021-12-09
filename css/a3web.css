@@ -41,12 +41,12 @@ ul {
   padding-left: 5px;
 }
 .footerlink{
-  color: whitesmoke;
+  color: whitesmoke !important;
   text-decoration: none;
   }
 
 .footerlink:hover {
-  color: grey
+  color: grey !important;
 }
 
 
