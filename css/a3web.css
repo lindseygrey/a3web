@@ -450,7 +450,7 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 }
 
 .price:hover {
-  box-shadow: 0 8px 12px 0 white;
+  box-shadow: 0 8px 12px 0 grey;
 }
 
 .price .header {
