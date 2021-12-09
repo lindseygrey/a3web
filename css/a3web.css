@@ -430,20 +430,19 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   box-sizing: border-box;
 }
 
-.pcol {
+.columns {
   float: left;
   width: 33.3%;
   padding: 8px;
-  padding-bottom: 100px;
+  margin-bottom: 100px;
 }
 
 .price {
   list-style-type: none;
-  border: 1px solid #f3f0fc;
-  /* margin: 0px; */
-  /* padding-top: 0px;
-  padding-bottom: 0px; */
-  /* -webkit-transition: 0.3s; */
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+/*   -webkit-transition: 0.3s; */
   transition: 0.3s;
 }
 
@@ -458,7 +457,7 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 }
 
 .price li {
-  border-bottom: 1px solid #f3f0fc;
+  border-bottom: 1px solid #eee;
   padding: 20px;
   text-align: center;
 }
@@ -468,7 +467,7 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   font-size: 20px;
 }
 
-.pricebutton {
+.button {
   background-color: #885ced;
   border: none;
   color: white;
@@ -479,9 +478,10 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 }
 
 @media only screen and (max-width: 600px) {
-  .pcol {
+  .columns {
     width: 100%;
   }
 }
+
 /*end price bar CSS*/
 /* End raine css */
