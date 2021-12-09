@@ -430,7 +430,7 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   box-sizing: border-box;
 }
 
-.columns {
+.pcol {
   float: left;
   width: 33.3%;
   padding: 8px;
@@ -478,7 +478,7 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 }
 
 @media only screen and (max-width: 600px) {
-  .columns {
+  .pcol {
     width: 100%;
   }
 }
