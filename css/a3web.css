@@ -480,7 +480,7 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 .pricebutton {
   background-color: #885ced;
   border: none;
-  color: white;
+  color: white !important; 
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
