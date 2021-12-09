@@ -1,6 +1,9 @@
 /* CSS page */
 /* Please place your name Before and After your code */
 
+
+/*******************************************************************************************************************************************************************************/
+
 /***************** 
 * Owner : Lindsey
 * Date  : November 14
@@ -41,12 +44,12 @@ ul {
   padding-left: 5px;
 }
 .footerlink{
-  color: whitesmoke !important;
+  color: whitesmoke !important; /* important added to overide link / hover colour by: Raine*/
   text-decoration: none;
   }
 
 .footerlink:hover {
-  color: grey !important;
+  color: grey !important; /* important added to overide link / hover colour by: Raine*/
 }
 
 
@@ -115,7 +118,11 @@ details > p {
 
 /* End of Lindsey Section */
 
-/* Perry CSS Start */
+/*******************************************************************************************************************************************************************************/
+
+/*****************
+ Perry CSS Start 
+ *****************/
 .bg-image-full{
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -224,11 +231,17 @@ iframe {
   font-size: 1.5rem
 }
 
-/* End of Perry CSS */
+/********************
+ End of Perry CSS 
+ ********************/
 
-/* Amanda CSS  Start*/
-/* Date: Nov 21 */
-/* From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp */
+/*******************************************************************************************************************************************************************************/
+
+/****************** 
+Amanda CSS  Start
+Date: Nov 21
+From: https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp 
+******************/
 
 /* styling the colors and hover of the nav bar- have to use bootstrap class syntax here */
 .navbar-nav {
@@ -265,10 +278,14 @@ iframe {
   font-weight: 500;
 }
 
+/*******************************************************************************************************************************************************************************/
 
-/*Rachel's CSS for Meet the Team*/
-/*11/24*/
-/*Adaped from w3schools: https://www.w3schools.com/howto/howto_css_team.asp */
+/**********************
+Rachel's CSS for Meet the Team
+11/24
+Adaped from w3schools: https://www.w3schools.com/howto/howto_css_team.asp 
+**********************/
+
 /* Three columns side by side */
  .column {
   float: left;
@@ -323,9 +340,11 @@ iframe {
 } 
 /*End TEAM css*/
 
-/* Rachel added content and updated content and style for Contact us form*/
-/*Added 11/24. */
-/* Updated 12/4 */
+/*******************
+ Rachel added content and updated content and style for Contact us form
+Added 11/24.
+Updated 12/4 
+**********************/
 
 /*CSS for Contact form adapted from w3schools:  https://www.w3schools.com/howto/howto_css_contact_form.asp  */
  /* Style inputs with type="text", select elements and textareas */
@@ -363,10 +382,16 @@ input[type=submit]:hover {
   background-color: #f2f2f2;
   padding: 20px;
 } 
-/*End Rachel's CSS */
+/*******************
+End Rachel's CSS 
+*********************/
 
-/* Raine CSS Start */
-/*last updated 12/07 */
+/*******************************************************************************************************************************************************************************/
+
+/**********************
+Raine CSS Start
+last updated 12/08 
+************************/
 
 /* "landing card" to draw the eye add to presentation */
 .parent {
@@ -385,6 +410,7 @@ input[type=submit]:hover {
   padding: 50px;
   vertical-align: middle;
 }
+
 /* colour for embedded links, to match general theme - show there is a link */
 a:link {
   color: #8e53b5;
@@ -397,7 +423,7 @@ a:hover{
   color:rgb(45, 4, 75);
 }
 
-/* resizing hearder in project page*/
+/* header text in project page*/
 .txt{
   font-size: 20px;
   color: black;
@@ -413,6 +439,7 @@ a:hover{
   justify-content: center
 }
 
+/* small header on project oage*/
 .kh {
   padding: 1px;
   text-align: center;
@@ -431,13 +458,12 @@ a:hover{
   width: 50%;
 }
 
-
+/*space out sections*/
 .marg{
   margin-bottom: 250px;
 }
 
-/*Price Bar CSS
-Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
+/*Price Bar CSS ------  Adapted from: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 * {
   box-sizing: border-box;
 }
@@ -454,7 +480,6 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   border: 1px solid #eee;
   margin: 0;
   padding: 0;
-/*   -webkit-transition: 0.3s; */
   transition: 0.3s;
 }
 
@@ -482,7 +507,7 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
 .pricebutton {
   background-color: #885ced;
   border: none;
-  color: white !important; 
+  color: white !important; /* important added to overide link / hover colour */
   padding: 10px 25px;
   text-align: center;
   text-decoration: none;
@@ -495,5 +520,6 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   }
 }
 
-/*end price bar CSS*/
-/* End raine css */
+/****************
+End raine css 
+*****************/
