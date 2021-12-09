@@ -63,5 +63,5 @@ All these components will appear in all individual pages:
 - [x] Check for CSS errors
 - [x] All group members: Check responsiveness before final submission
 - [x] All group members: Error checking before final submission
-- [x] All group members (except lindsey): Upload the repository on your own account! 
+- [x] All group members (except Lindsey): Upload the repository on your own account! 
 
