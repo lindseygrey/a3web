@@ -431,6 +431,9 @@ Source: https://www.w3schools.com/howto/howto_css_pricing_table.asp */
   padding-top:20px;
   padding-bottom: 20px;
 } */
+.spot{
+  margin-bottom: 10px;
+}
 
 .columns {
   float: left;
